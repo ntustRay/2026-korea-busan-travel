@@ -21,6 +21,7 @@
 
 - [正常行程](./itinerary-normal.md)：Luge＋Outlet、水族館＋SPA、松島纜車
 - [雨備行程](./itinerary-rainy.md)：依逐時天氣互換戶外日與室內日
+- [詳細交通筆記](./交通.md)：機場、飯店與各景點的逐段路線、轉乘方向、韓文站名與 Taxi 用語
 - [Visit Busan Pass 購買與使用](./visit-busan-pass.md)：BIG 5 購買連結、即買即用規則、使用方式與省錢估算
 
 ### 景點優先順序
