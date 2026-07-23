@@ -1,8 +1,8 @@
 # Android｜韓國旅遊必裝 App
 
-> 這份清單只保留這次釜山 4 天 3 夜真的會用到的 App。原則是：**導航、翻譯、叫車、電子票券、航班**各留一個主力，不裝一堆功能重複的 App。
+> 這份清單只保留這次釜山 4 天 3 夜真的會用到的 App。原則是：**導航、翻譯、叫車、電子票券、航班**各留一個主力，再補兩個安全選配，不裝一堆功能重複的 App。
 
-## 結論：先裝這 5 個
+## 結論：5 個核心＋2 個安全選配
 
 | 優先 | App | 用途 | 這次怎麼用 |
 |---|---|---|---|
@@ -11,6 +11,8 @@
 | 必裝 | **k.ride** | 外國旅客叫 Taxi | Osiria、Luge、Outlet、松島等短程 Taxi |
 | 必裝 | **Visit Busan Pass** | 顯示 Mobile Pass QR Code | 進 Luge、SPA LAND、松島纜車等景點 |
 | 必裝 | **EVA Mobile** | 航班與登機證 | 線上報到、航班異動、登機門與行李通知 |
+| 安全選配 | **KMA Weather** | 韓國官方天氣警報 | 看豪雨、雷雨、強風、颱風與地震警報 |
+| 安全選配 | **Emergency Ready** | 外國旅客緊急資訊 | 找避難所、急診、警察局、消防局與撥打 119 |
 
 ## 1. NAVER Map｜主要導航
 
@@ -31,6 +33,7 @@
   - `송도해상케이블카 송도베이스테이션`
   - `김해국제공항 국제선청사`
 - [ ] 把每天的主路線先查過一次。
+- [ ] Luge 路線固定收藏為：`부산역 → 교대역 → 오시리아역`。
 
 ### 使用原則
 
@@ -38,6 +41,7 @@
 2. 地鐵方向看終點站名稱，不只看月台左右。
 3. 公車路線與到站時間以當下結果為準。
 4. 導航要求走奇怪小路時，先看是否有大路或商場地下連通道。
+5. Luge 日統一在 **교대역（教大站）**轉東海線，不使用釜田站版本。
 
 ## 2. Papago｜主要翻譯
 
@@ -140,7 +144,38 @@
 - [ ] 將登機證加入 Google Wallet，並另存一張離線截圖。
 - [ ] 再確認登機門、航廈、托運額度與行動電源規定。
 
-## 選配 App
+## 安全選配 App
+
+### KMA Weather｜韓國氣象廳官方警報
+
+- 韓文名稱：**기상청 날씨알리미**
+- Google Play：https://play.google.com/store/apps/details?id=kr.go.kma.weatherapp
+- 開發者：**韓國氣象廳／기상청**
+- 用途：依位置通知地震、豪雨、雷雨、強風、颱風等危險天氣資訊。
+
+這次 Luge 與松島纜車都會受雷雨、強風影響，因此建議安裝。App 介面以韓文為主，不必拿它研究一般天氣，只要讓它負責官方警報即可。
+
+出發前設定：
+
+- [ ] 允許通知與定位權限。
+- [ ] 收藏 `부산광역시`（釜山廣域市）。
+- [ ] Android 系統內取消省電限制，避免警報被延遲。
+
+### Emergency Ready｜外國旅客緊急資訊
+
+- Google Play：https://play.google.com/store/apps/details?id=kr.or.klid.newengsafekorea2025
+- 開發者：**韓國行政安全部／행정안전부**
+- 用途：尋找避難所、急救中心、消防局、警察局，查看安全指南並直接撥打 119。
+
+它不是每天會開的 App，但遇到颱風、豪雨、地震或醫療緊急狀況時，比臨時用搜尋引擎找資料更可靠。
+
+出發前設定：
+
+- [ ] 允許定位權限。
+- [ ] 確認 App 能顯示釜山附近的急救中心與警察局。
+- [ ] 記住韓國警察 `112`、消防與救護車 `119`。
+
+## 其他選配 App
 
 ### Google Wallet
 
@@ -168,16 +203,29 @@
 - **韓國地鐵第三方 App**：NAVER Map 已整合地鐵、公車與步行。
 - **Mobile T-money**：這次直接買實體 T-money／Cashbee，最簡單穩定。
 
+## 兩人共同備援 Checklist
+
+不要讓所有票券、路線和帳號只存在同一支手機。
+
+- [ ] 兩人的 NAVER Map 都收藏相同景點與飯店。
+- [ ] 將 NAVER Map 收藏清單分享給同行者。
+- [ ] 兩支手機都保存護照、飯店、航班、Pass 與交通圖的離線截圖。
+- [ ] eSIM QR Code、訂單編號與客服方式存在另一支手機或雲端。
+- [ ] 兩人都記住飯店韓文名稱與地址。
+- [ ] 開啟 Android「尋找我的裝置」。
+- [ ] 至少一人保留台灣 SIM 接收 OTP，但關閉 Data Roaming。
+
 ## Android 出發前設定 Checklist
 
 - [ ] 所有 App 更新到最新版。
 - [ ] NAVER Map、k.ride 開啟精確位置。
 - [ ] Papago 允許相機與麥克風。
 - [ ] EVA、k.ride、Visit Busan Pass 允許通知。
+- [ ] 安裝 KMA Weather／Emergency Ready 時，允許通知與定位。
 - [ ] 關閉台灣 SIM 的 Data Roaming。
 - [ ] 韓國 eSIM 開啟 Data Roaming。
 - [ ] 關閉「自動切換行動數據」，避免偷跑台灣漫遊。
-- [ ] 取消 NAVER Map、k.ride、Visit Busan Pass 的省電限制，避免背景定位或 QR Code 被系統中斷。
+- [ ] 取消 NAVER Map、k.ride、Visit Busan Pass、KMA Weather 的省電限制。
 - [ ] 飯店、航班、Pass 與交通資料都留離線截圖。
 
 ## 最終手機首頁建議
@@ -186,6 +234,7 @@
 第一排：NAVER Map｜Papago｜k.ride
 第二排：Visit Busan Pass｜EVA｜相機
 第三排：Google Wallet｜電話｜設定
+安全資料夾：KMA Weather｜Emergency Ready
 ```
 
 旅行途中只要記住：
@@ -196,6 +245,8 @@
 不想走：k.ride
 進景點：Visit Busan Pass
 搭飛機：EVA
+危險天氣：KMA Weather
+緊急事故：Emergency Ready／112／119
 ```
 
 ## 官方／Google Play 資料
@@ -205,4 +256,6 @@
 - k.ride：https://play.google.com/store/apps/details?id=com.kakaomobility.kride
 - Visit Busan Pass：https://play.google.com/store/apps/details?id=com.busan.visitbusanpass
 - EVA Mobile：https://play.google.com/store/apps/details?id=com.evaair.android
+- KMA Weather：https://play.google.com/store/apps/details?id=kr.go.kma.weatherapp
+- Emergency Ready：https://play.google.com/store/apps/details?id=kr.or.klid.newengsafekorea2025
 - VISITKOREA 叫車 App 說明：https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=197907
