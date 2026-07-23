@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">奧西利亞站、Skyline Luge 與 Outlet 交通示意圖</title>
+  <desc id="desc">奧西利亞站一號出口搭短程計程車到 Skyline Luge，再搭短程計程車前往樂天東釜山 Outlet，購物後回奧西利亞站。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3 z" fill="#334155"/></marker>
+    <style>.title{font:700 32px Arial,'Noto Sans TC',sans-serif;fill:#0f172a}.sub{font:500 18px Arial,'Noto Sans TC',sans-serif;fill:#475569}.box{fill:#fff;stroke:#cbd5e1;stroke-width:2;rx:18}.label{font:700 22px Arial,'Noto Sans TC',sans-serif;fill:#0f172a}.small{font:500 17px Arial,'Noto Sans TC',sans-serif;fill:#475569}.arrow{stroke:#334155;stroke-width:4;fill:none;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect width="1200" height="520" fill="#f8fafc"/>
+  <text x="60" y="58" class="title">Osiria 區域｜Luge ＋ Outlet</text>
+  <text x="60" y="92" class="sub">8 月炎熱、兩人同行：站與景點之間直接搭短程 Taxi，不為省小錢硬走</text>
+
+  <rect x="70" y="175" width="250" height="150" class="box"/>
+  <circle cx="120" cy="220" r="16" fill="#2563eb"/>
+  <text x="205" y="226" text-anchor="middle" class="label">奧西利亞站</text>
+  <text x="195" y="262" text-anchor="middle" class="small">오시리아역 1번 출구</text>
+  <text x="195" y="294" text-anchor="middle" class="small">出站後找 Taxi 乘車處</text>
+
+  <path d="M320 250 C390 180 450 180 520 230" class="arrow"/>
+  <text x="420" y="174" text-anchor="middle" class="small">Taxi 約 5–10 分鐘</text>
+
+  <rect x="525" y="130" width="280" height="170" fill="#ecfdf5" stroke="#4ade80" stroke-width="2" rx="18"/>
+  <text x="665" y="180" text-anchor="middle" class="label">Skyline Luge Busan</text>
+  <text x="665" y="218" text-anchor="middle" class="small">스카이라인 루지 부산</text>
+  <text x="665" y="252" text-anchor="middle" class="small">기장해안로 205</text>
+
+  <path d="M805 215 C885 205 905 260 890 320" class="arrow"/>
+  <text x="902" y="205" text-anchor="middle" class="small">Taxi 約 5 分鐘</text>
+
+  <rect x="800" y="335" width="325" height="125" fill="#fff7ed" stroke="#fb923c" stroke-width="2" rx="18"/>
+  <text x="962" y="380" text-anchor="middle" class="label">Lotte Premium Outlets</text>
+  <text x="962" y="416" text-anchor="middle" class="small">롯데프리미엄아울렛 동부산점</text>
+  <text x="962" y="444" text-anchor="middle" class="small">買完直接叫 Taxi 回 오시리아역</text>
+
+  <path d="M800 400 C620 490 360 470 270 325" class="arrow"/>
+  <text x="535" y="468" text-anchor="middle" class="small">有戰利品時不要步行回車站</text>
+
+  <rect x="70" y="370" width="390" height="80" fill="#eff6ff" stroke="#60a5fa" stroke-width="2" rx="14"/>
+  <text x="265" y="405" text-anchor="middle" class="small">給司機看：스카이라인 루지 부산으로 가 주세요.</text>
+  <text x="265" y="433" text-anchor="middle" class="small">回程：오시리아역으로 가 주세요.</text>
+</svg>
