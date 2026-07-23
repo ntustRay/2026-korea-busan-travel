@@ -102,6 +102,7 @@ Busan Station Line 1
 ### 執行條件
 
 - 早上出門前確認 Skyline Luge 官網顯示營運中。
+- 交通固定使用 **Busan Station → Gyodae 教大站 → Donghae Line → Osiria**，不要改走釜田站。
 - 先玩 Luge，再逛 Outlet。
 - 如果到 Osiria 後突然雷雨或停駛，不在現場等待超過 30 分鐘，直接前往 Outlet。
 - 當天 Luge 未玩到時，不再補 Lotte World；保留體力與購物時間。
@@ -145,13 +146,16 @@ SEA LIFE Busan Aquarium
 ### 方案 C1：雨勢較小、Skyline Luge 有營運
 
 ```text
-Busan Station
-→ Bujeon 轉 Donghae Line
-→ Osiria
+Busan Station 搭 Line 1
+→ Gyodae Station 教大站（교대역）
+→ 跟著 동해선 / Donghae Line 指標走站內連通道
+→ Donghae Line 到 Osiria
 → Skyline Luge
 → Lotte Premium Outlets Dongbusan
-→ 回飯店
+→ Osiria → Gyodae → Busan Station 回飯店
 ```
+
+Luge 的所有版本都統一在 **教大站轉東海線**，避免同一趟旅程出現兩套不同走法。
 
 ### 方案 C2：大雨／雷雨／強風，Luge 停駛
 
@@ -237,7 +241,8 @@ Busan Station Line 1
 
 - [ ] Skyline Luge 官網即時營運狀態。
 - [ ] 松島纜車官網即時營運狀態。
-- [ ] Naver Map／KakaoMap 的東海線班次。
+- [ ] NAVER Map 的東海線即時班次與轉乘資訊。
+- [ ] 韓國氣象廳警報是否有豪雨、雷雨或強風特報。
 - [ ] 雨具使用輕便雨衣，不帶大型雨傘玩設施。
 
 ## 官方資訊
