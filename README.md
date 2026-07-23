@@ -25,6 +25,7 @@
 - [Visit Busan Pass 購買與使用](./visit-busan-pass.md)：BIG 5 購買連結、即買即用規則、使用方式與省錢估算
 - [出發前注意事項](./出發前注意事項.md)：入境文件、eSIM、轉接頭、行動電源、禁帶物品、常備藥品與打包清單
 - [韓國與釜山文化注意事項](./韓國與釜山文化注意事項.md)：餐廳、交通、傳統市場、SPA、拍照禮貌與實用韓文
+- [Android 韓國必裝 App](./必裝%20Korean%20APP.md)：NAVER Map、Papago、k.ride、Visit Busan Pass、長榮與手機設定
 
 ### 景點優先順序
 
