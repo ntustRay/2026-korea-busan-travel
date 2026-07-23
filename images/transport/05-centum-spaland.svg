@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Centum City 站到 SPA LAND 示意圖</title>
+  <desc id="desc">由海雲台站搭地鐵二號線往梁山方向到 Centum City 站，依新世界百貨與 Spa Land 標示走地下連通區，前往百貨一樓。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3 z" fill="#334155"/></marker>
+    <style>.title{font:700 32px Arial,'Noto Sans TC',sans-serif;fill:#0f172a}.sub{font:500 18px Arial,'Noto Sans TC',sans-serif;fill:#475569}.box{fill:#fff;stroke:#cbd5e1;stroke-width:2;rx:18}.label{font:700 22px Arial,'Noto Sans TC',sans-serif;fill:#0f172a}.small{font:500 17px Arial,'Noto Sans TC',sans-serif;fill:#475569}.arrow{stroke:#334155;stroke-width:4;fill:none;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect width="1200" height="500" fill="#f8fafc"/>
+  <text x="60" y="58" class="title">海雲台 → SPA LAND｜Centum City 轉折點</text>
+  <text x="60" y="92" class="sub">重點不是出口號碼，而是一路跟著「신세계백화점 / 스파랜드」地下標示走</text>
+
+  <rect x="60" y="160" width="235" height="145" class="box"/>
+  <circle cx="105" cy="203" r="15" fill="#16a34a"/>
+  <text x="185" y="209" text-anchor="middle" class="label">海雲台站</text>
+  <text x="178" y="245" text-anchor="middle" class="small">해운대역</text>
+  <text x="178" y="277" text-anchor="middle" class="small">Line 2 往 양산</text>
+
+  <path d="M295 232 H455" class="arrow"/>
+  <text x="375" y="204" text-anchor="middle" class="small">約 3 站</text>
+
+  <rect x="460" y="145" width="260" height="175" class="box"/>
+  <circle cx="505" cy="190" r="15" fill="#16a34a"/>
+  <text x="600" y="197" text-anchor="middle" class="label">Centum City 站</text>
+  <text x="590" y="235" text-anchor="middle" class="small">센텀시티역</text>
+  <text x="590" y="270" text-anchor="middle" class="small">不要急著走到戶外</text>
+  <text x="590" y="299" text-anchor="middle" class="small">找百貨地下連通方向</text>
+
+  <path d="M720 232 H875" class="arrow"/>
+  <text x="798" y="193" text-anchor="middle" class="small">跟著這兩個字樣</text>
+  <text x="798" y="217" text-anchor="middle" style="font:700 20px Arial,'Noto Sans KR',sans-serif;fill:#1d4ed8">신세계백화점 · 스파랜드</text>
+
+  <rect x="880" y="135" width="260" height="195" fill="#fef3c7" stroke="#f59e0b" stroke-width="2" rx="18"/>
+  <text x="1010" y="185" text-anchor="middle" class="label">Shinsegae Centum City</text>
+  <text x="1010" y="223" text-anchor="middle" class="small">신세계백화점 센텀시티점</text>
+  <text x="1010" y="258" text-anchor="middle" class="label">SPA LAND｜1F</text>
+  <text x="1010" y="294" text-anchor="middle" class="small">스파랜드 센텀시티</text>
+
+  <rect x="60" y="375" width="1080" height="72" fill="#eff6ff" stroke="#60a5fa" stroke-width="2" rx="14"/>
+  <text x="600" y="419" text-anchor="middle" class="label">看不到 SPA LAND 時：先找 신세계백화점（新世界百貨），進百貨後再確認 1F 導覽。</text>
+</svg>
