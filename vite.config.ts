@@ -11,7 +11,7 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
-      registerType: "autoUpdate",
+      registerType: "prompt",
       injectRegister: false,
       includeAssets: ["app-icon.svg", "app-icon-192.png", "app-icon-512.png", "transport/*.svg"],
       manifest: {
@@ -22,8 +22,8 @@ export default defineConfig({
         start_url: "/2026-korea-busan-travel/",
         scope: "/2026-korea-busan-travel/",
         display: "standalone",
-        background_color: "#eef5f3",
-        theme_color: "#0b5d66",
+        background_color: "#f5f2ec",
+        theme_color: "#c94c5d",
         icons: [
           {
             src: "app-icon-192.png",
@@ -44,7 +44,7 @@ export default defineConfig({
         navigateFallback: "index.html",
         cleanupOutdatedCaches: true,
         clientsClaim: true,
-        skipWaiting: true,
+        skipWaiting: false,
       },
     }),
   ],

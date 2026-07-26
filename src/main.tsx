@@ -4,7 +4,16 @@ import { registerSW } from "virtual:pwa-register";
 import { App } from "./App";
 import "./styles.css";
 
-registerSW({ immediate: true });
+const updateServiceWorker = registerSW({
+  immediate: true,
+  onNeedRefresh() {
+    window.dispatchEvent(new Event("busan-update-available"));
+  },
+});
+
+window.addEventListener("busan-apply-update", () => {
+  void updateServiceWorker(true);
+});
 
 const root = document.getElementById("root");
 
