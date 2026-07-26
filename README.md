@@ -1,5 +1,20 @@
 # 2026 Busan Travel
 
+## 手機旅行網站
+
+本專案會將既有 Markdown 行程與注意事項建置成離線可用的手機 PWA，並由 GitHub Actions 發布至 GitHub Pages。
+
+```bash
+npm install
+npm run start
+npm run check
+npm run test:e2e
+```
+
+- 正常與雨備行程仍以 Markdown 為唯一內容來源。
+- 推送至 `main` 後，所有檢查通過才會更新 GitHub Pages。
+- GitHub Pages 網址：<https://ntustray.github.io/2026-korea-busan-travel/>
+
 ## 旅遊基本資料
 
 - **旅遊日期**：2026/07/31～2026/08/03（4 天 3 夜）
