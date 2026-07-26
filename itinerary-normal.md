@@ -90,10 +90,11 @@ Osiria Station、Luge 與 Outlet 之間優先搭短程 Taxi。8 月炎熱，回�
 
 | 時間 | 安排 |
 |---|---|
-| 08:40 | 從飯店出發 |
-| 10:00～12:15 | Skyline Luge，建議買 3 次方案 |
-| 12:15～12:30 | Taxi 前往 Outlet |
-| 12:30～13:30 | Outlet 午餐 |
+| 08:20 | 從飯店出發 |
+| 約 09:40 | 抵達 Skyline Luge，準備入場 |
+| 10:00～12:00 | Skyline Luge，預設使用 Pass 內含的 2 次 |
+| 12:00～12:15 | Taxi 前往 Outlet |
+| 12:15～13:15 | Outlet 午餐 |
 | 13:30～18:30 | Outlet 購物、咖啡、休息 |
 | 18:30～19:30 | 晚餐或最後採買 |
 | 19:30 後 | Outlet → Taxi 到 Osiria → Gyodae → Busan Station 回飯店 |

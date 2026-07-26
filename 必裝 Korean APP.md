@@ -91,18 +91,20 @@
 
 ### 出發前一定要完成
 
-- [ ] 用台灣手機號碼或 Google 帳號完成註冊。
-- [ ] 綁定一張可海外交易的信用卡。
-- [ ] 確認手機能收到驗證簡訊。
+- [x] 用台灣手機號碼或 Google 帳號完成註冊。
+- [x] 綁定一張可海外交易的信用卡。
+- [x] 確認手機能收到驗證簡訊。
 - [ ] 將飯店與景點加入常用地址。
-- [ ] 在台灣先打開 App，確認能正常進入叫車畫面。
+- [x] 在台灣先打開 App，確認能正常進入叫車畫面。
 
 ### 叫車時
 
 1. 先用 NAVER Map 確認自己所在的正確入口或出口。
 2. 在 k.ride 把上車點 Pin 放在車子能停的位置，不要放在地下通道或景點內部。
-3. 上車前核對車牌與車型。
-4. 下車後確認付款狀態，不要同時又用現金重複付款。
+3. 叫車後先截圖預估費用與目的地；上車前核對車牌與車型。
+4. 途中確認 App 路線沒有明顯偏離，司機要求改成私下議價現金時直接拒絕。
+5. 下車後確認付款狀態，不要同時又用現金重複付款。
+6. 發生爭議時，保留車牌、App 路線、預估價與付款紀錄，先向平台申訴，必要時聯絡韓國觀光諮詢 `1330`。
 
 ### 本次預計使用
 
@@ -259,3 +261,4 @@
 - KMA Weather：https://play.google.com/store/apps/details?id=kr.go.kma.weatherapp
 - Emergency Ready：https://play.google.com/store/apps/details?id=kr.or.klid.newengsafekorea2025
 - VISITKOREA 叫車 App 說明：https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=197907
+- VISITKOREA 1330 旅遊諮詢與申訴：https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140632

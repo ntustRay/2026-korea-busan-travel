@@ -43,7 +43,7 @@ BIG 5 可使用：
 
 ### A 組：確定使用
 
-1. **Skyline Luge Busan**
+1. **Skyline Luge Busan**：本次行程預設玩 2 次；購買時再確認 App 顯示的實際兌換權益
 2. **SPA LAND Centum City**
 
 ### B 組：主要與備案
@@ -85,7 +85,7 @@ Luge、SPA、松島纜車都有機會正常使用
 → 購買 BIG 5 Mobile
 
 Luge 或松島纜車確定停駛，且沒有想使用其他備案
-→ 重新計算後再決定，不要為了 Pass 強塞景點
+→ 重新計算後再決定；可以不買，不要為了 Pass 強塞景點
 ```
 
 ## 官方資料來源
