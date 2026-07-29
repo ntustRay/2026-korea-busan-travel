@@ -85,6 +85,23 @@ describe("today itinerary", () => {
     expect(screen.getByText("韓國必買", { selector: "strong" })).toBeVisible();
   });
 
+  it("stores must-eat and must-buy checklist progress", async () => {
+    const user = userEvent.setup();
+    const now = new Date("2026-08-02T01:00:00.000Z");
+    const firstView = render(<App now={now} />);
+
+    await user.click(screen.getByRole("button", { name: "注意" }));
+    await user.click(screen.getByText("釜山必吃", { selector: "strong" }));
+    await user.click(screen.getByRole("button", { name: /豬肉湯飯 돼지국밥/ }));
+    expect(screen.getByText("1／10 已完成")).toBeVisible();
+
+    firstView.unmount();
+    render(<App now={now} />);
+    await user.click(screen.getByRole("button", { name: "注意" }));
+    await user.click(screen.getByText("釜山必吃", { selector: "strong" }));
+    expect(screen.getByRole("button", { name: /豬肉湯飯 돼지국밥/ })).toHaveAttribute("aria-pressed", "true");
+  });
+
   it("does not expose unorganized raw notes", async () => {
     const user = userEvent.setup();
     const now = new Date("2026-08-02T01:00:00.000Z");
