@@ -15,7 +15,29 @@ test("captures every primary section for UI review", async ({ page }) => {
       path: `test-results/ui-${section}.png`,
       fullPage: true,
     });
-    await expect(page).toHaveScreenshot(`section-${section}.png`, { fullPage: true });
+    await expect(page).toHaveScreenshot(`section-${section}.png`, {
+      fullPage: true,
+      mask: [page.locator(".seoul-clock span")],
+    });
+  }
+});
+
+test("captures every expanded attention group for UI review", async ({ page }) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: "注意", exact: true }).click();
+
+  const groups = page.locator(".attention-group");
+  await expect(groups).toHaveCount(4);
+
+  for (let index = 0; index < await groups.count(); index += 1) {
+    const group = groups.nth(index);
+
+    if (await group.getAttribute("open") === null) {
+      await group.locator("summary").click();
+    }
+
+    await expect(group).toHaveAttribute("open", "");
+    await expect(page).toHaveScreenshot(`attention-group-${index + 1}.png`, { fullPage: true });
   }
 });
 

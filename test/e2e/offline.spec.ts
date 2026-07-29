@@ -31,8 +31,9 @@ test("keeps mobile text readable, content centered, and raw notes hidden", async
   await expect(page.getByRole("heading", { name: "韓國注意事項" })).toBeVisible();
   await expect(page.locator(".attention-list li")).toHaveCount(37);
   await expect(page.getByText("吃完飯請立即移動！")).toBeVisible();
+  await page.getByText("互動與拍照", { exact: true }).click();
   await expect(page.getByText("不要「嗯嗯」，要說「內內」！")).toBeVisible();
-  await expect(page.getByRole("link", { name: "市場與 SPA" })).toHaveAttribute("href", "#attention-市場與 SPA");
+  await page.getByText("市場與 SPA", { exact: true }).click();
   await expect(page.getByText("浴場不要帶手機拍照").locator("..")).toHaveClass(/red-line/);
   await expect(page.getByText("地鐵、公車與步行導航")).toHaveCount(0);
   await expect(page.getByText("韓國與釜山文化注意事項")).toHaveCount(0);

@@ -226,6 +226,8 @@ function MarkdownContent({ markdown }: { markdown: string }) {
 }
 
 function AttentionList() {
+  const [openGroup, setOpenGroup] = useState<string | null>(koreaAttentionGroups[0]?.title ?? null);
+
   return (
     <section>
       <header className="section-heading">
@@ -233,18 +235,19 @@ function AttentionList() {
         <h1>韓國注意事項</h1>
         <p>看到就照做。</p>
       </header>
-      <nav className="attention-toc" aria-label="注意事項目錄">
-        {koreaAttentionGroups.map((group) => <a key={group.title} href={`#attention-${group.title}`}>{group.title}</a>)}
-      </nav>
       <div className="attention-groups">
-        {koreaAttentionGroups.map((group) => (
-          <section className="attention-group" id={`attention-${group.title}`} key={group.title}>
-            <h2>{group.title}</h2>
-            <ol className="attention-list">
-              {group.items.map((item) => <li className={redLineItems.has(item) ? "red-line" : undefined} key={item}><strong>{item}</strong></li>)}
-            </ol>
-          </section>
-        ))}
+        {koreaAttentionGroups.map((group) => {
+          const redLineCount = group.items.filter((item) => redLineItems.has(item)).length;
+
+          return (
+            <details className="attention-group" id={`attention-${group.title}`} key={group.title} open={openGroup === group.title}>
+              <summary onClick={(event) => { event.preventDefault(); setOpenGroup((current) => current === group.title ? null : group.title); }}><span><strong>{group.title}</strong><small>{group.items.length} 項提醒{redLineCount > 0 ? ` · ${redLineCount} 項紅線` : ""}</small></span><ChevronDown aria-hidden="true" /></summary>
+              <ol className="attention-list">
+                {group.items.map((item) => <li className={redLineItems.has(item) ? "red-line" : undefined} key={item}><strong>{item}</strong></li>)}
+              </ol>
+            </details>
+          );
+        })}
       </div>
     </section>
   );
@@ -260,6 +263,7 @@ function PreparationPage({ completed, onToggle }: { completed: string[]; onToggl
         <p className="station-code">BEFORE DEPARTURE</p>
         <h1>行前準備</h1>
         <p>{completedCount}／{preparationItems.length} 項完成</p>
+        <div className="progress-track" role="progressbar" aria-label="行前準備完成進度" aria-valuemin={0} aria-valuemax={preparationItems.length} aria-valuenow={completedCount}><span style={{ width: `${completedCount / preparationItems.length * 100}%` }} /></div>
       </header>
       <section className="preparation-section">
         <h2>Checklist</h2>
@@ -280,7 +284,7 @@ function PreparationPage({ completed, onToggle }: { completed: string[]; onToggl
               <article key={app.name}>
                 <button className="app-check" type="button" aria-pressed={isCompleted} onClick={() => onToggle(id)} aria-label={`${isCompleted ? "取消完成" : "標示已安裝"}：${app.name}`}><span className="check-box">{isCompleted ? <Check aria-hidden="true" /> : null}</span></button>
                 <div><strong>{app.name}</strong><p>{app.purpose}</p></div>
-                <a href={androidAppUrl(app.packageName)}><ExternalLink aria-hidden="true" />開啟／安裝</a>
+                <a href={androidAppUrl(app.packageName)}><ExternalLink aria-hidden="true" />開啟</a>
               </article>
             );
           })}

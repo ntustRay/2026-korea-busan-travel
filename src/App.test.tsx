@@ -63,9 +63,10 @@ describe("today itinerary", () => {
     await user.click(screen.getByRole("button", { name: "注意" }));
     expect(screen.getByRole("heading", { name: "韓國注意事項" })).toBeVisible();
     expect(screen.getByText("吃完飯請立即移動！")).toBeVisible();
+    await user.click(screen.getByText("搭車", { selector: "strong" }));
     expect(screen.getByText("地鐵方向看終點站韓文")).toBeVisible();
+    await user.click(screen.getByText("互動與拍照", { selector: "strong" }));
     expect(screen.getByText("不要「嗯嗯」，要說「內內」！")).toBeVisible();
-    expect(screen.getByRole("link", { name: "搭車" })).toHaveAttribute("href", "#attention-搭車");
     expect(screen.getByText("不要亂拍人").closest("li")).toHaveClass("red-line");
     expect(screen.queryByText("翻譯菜單、對話與韓文圖片")).not.toBeInTheDocument();
   });
@@ -205,7 +206,7 @@ describe("today itinerary", () => {
     await user.click(screen.getByRole("button", { name: "標示已安裝：NAVER Map" }));
     expect(screen.getByText("1／14 項完成")).toBeVisible();
     expect(screen.getByText("1／7")).toBeVisible();
-    expect(screen.getAllByRole("link", { name: "開啟／安裝" })[0]).toHaveAttribute("href", expect.stringContaining("package=com.nhn.android.nmap"));
+    expect(screen.getAllByRole("link", { name: "開啟" })[0]).toHaveAttribute("href", expect.stringContaining("package=com.nhn.android.nmap"));
 
     firstView.unmount();
     render(<App now={now} />);
