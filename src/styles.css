@@ -202,6 +202,11 @@ h2 { font-size: clamp(1.3rem, 5vw, 1.75rem); }
 .attention-list strong { padding: 12px 14px; font-size: 1rem; line-height: 1.45; }
 .attention-list .red-line { color: var(--danger); background: var(--danger-soft); }
 .attention-list .red-line::before { color: var(--danger); border-right-color: var(--danger); }
+.attention-list .checklist-item { display: block; min-height: 0; counter-increment: none; }
+.attention-list .checklist-item::before { display: none; }
+.attention-list .checklist-item button { display: flex; width: 100%; min-height: 58px; align-items: center; gap: 10px; padding: 8px 12px; color: inherit; border: 0; background: transparent; text-align: left; cursor: pointer; }
+.attention-list .checklist-item button strong { padding: 4px 0; }
+.attention-list .checklist-item button[aria-pressed="true"] strong { color: var(--ink-muted); text-decoration: line-through; }
 .app-list { display: grid; gap: 8px; }
 .app-list article { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; min-height: 76px; align-items: center; padding: 10px 12px; border: 1px solid var(--line); background: var(--surface); }
 .app-priority { padding: 4px 6px; color: var(--blue); border: 1px solid currentColor; font-size: .72rem; font-weight: 700; }
