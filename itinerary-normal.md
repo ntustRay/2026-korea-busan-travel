@@ -67,7 +67,7 @@ Busan Station 釜山站搭 Metro Line 1
 → Gyodae 轉 Line 1 回 Busan Station
 ```
 
-**統一在教大站轉東海線。**Osiria Station、Luge 與 Outlet 之間優先搭短程 Taxi，不在 8 月高溫下硬走。
+**統一在教大站轉東海線。** Osiria Station、Luge 與 Outlet 之間優先搭短程 Taxi，不在 8 月高溫下硬走。
 
 ![Osiria、Luge、Brick Campus 與 Outlet 交通圖](./images/transport/03-osiria-area.svg)
 

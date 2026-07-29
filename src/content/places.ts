@@ -16,6 +16,12 @@ const aquarium: Place = {
   address: "부산광역시 해운대구 해운대해변로 266",
 };
 
+const xTheSky: Place = {
+  name: "BUSAN X the SKY",
+  koreanName: "부산 엑스 더 스카이",
+  address: "부산광역시 해운대구 달맞이길 30",
+};
+
 const luge: Place = {
   name: "Skyline Luge Busan",
   koreanName: "스카이라인 루지 부산",
@@ -37,7 +43,7 @@ const gwangbok: Place = {
 const destinations: Record<string, { sunny: Place; rainy: Place }> = {
   "2026-07-31": { sunny: hotel, rainy: hotel },
   "2026-08-01": { sunny: luge, rainy: aquarium },
-  "2026-08-02": { sunny: aquarium, rainy: gwangbok },
+  "2026-08-02": { sunny: xTheSky, rainy: luge },
   "2026-08-03": { sunny: songdo, rainy: gwangbok },
 };
 

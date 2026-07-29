@@ -712,9 +712,8 @@ export function App({ now }: AppProps) {
               const rainyDay = rainyDays.find((candidate) => candidate.date === itineraryDay.date);
               return (
                 <article className="day-card" key={itineraryDay.date}>
-                  <div className="day-index"><span>DAY</span><strong>{itineraryDay.day}</strong></div>
+                  <div className="day-index"><span>DAY</span><strong>{itineraryDay.day}</strong><time>{itineraryDay.date}</time></div>
                   <div className="day-content">
-                    <time>{itineraryDay.date}</time>
                     <details><summary><Sun aria-hidden="true" />{itineraryDay.title}<ChevronDown aria-hidden="true" /></summary><MarkdownContent markdown={itineraryDay.markdown} /></details>
                     {rainyDay ? <details><summary><CloudRain aria-hidden="true" />{rainyDay.title}<ChevronDown aria-hidden="true" /></summary><MarkdownContent markdown={rainyDay.markdown} /></details> : null}
                   </div>

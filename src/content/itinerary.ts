@@ -139,19 +139,27 @@ export function parseRainyItinerary(markdown: string): ItineraryDay[] {
       2,
       "2026-08-01",
       "水族館＋SPA LAND",
-      sectionBetween(markdown, "## Day 2｜8/01", "## Day 3｜8/02"),
+      sectionBetween(
+        markdown,
+        "## 雨天室內套裝｜SEA LIFE＋SPA LAND＋西面",
+        "## 較乾燥日套裝｜Luge＋Brick Campus＋Outlet",
+      ),
     ),
     createRainyDay(
       3,
       "2026-08-02",
-      "購物＋飯店放鬆",
-      sectionBetween(markdown, "### 方案 C2：", "### 為什麼不改排"),
+      "Luge＋Brick Campus＋Outlet",
+      sectionBetween(
+        markdown,
+        "## 較乾燥日套裝｜Luge＋Brick Campus＋Outlet",
+        "## 情境表",
+      ),
     ),
     createRainyDay(
       4,
       "2026-08-03",
       "室內購物＋回程",
-      sectionBetween(markdown, "### 方案 2：", "### 回程硬規則"),
+      sectionBetween(markdown, "## Day 4｜8/03", "## Visit Busan Pass 雨天決策"),
     ),
   ];
 }

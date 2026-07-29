@@ -13,16 +13,16 @@ describe("today itinerary", () => {
     const now = new Date("2026-08-02T01:00:00.000Z");
     const firstView = render(<App now={now} />);
 
-    expect(screen.getByRole("heading", { name: "水族館＋海雲台看海＋SPA" })).toBeVisible();
+    expect(screen.getByRole("heading", { name: "X the SKY＋海雲台＋SPA LAND＋西面" })).toBeVisible();
 
     await user.click(screen.getByRole("button", { name: "切換為雨天行程" }));
 
-    expect(screen.getByRole("heading", { name: "購物＋飯店放鬆" })).toBeVisible();
+    expect(screen.getByRole("heading", { name: "Luge＋Brick Campus＋Outlet" })).toBeVisible();
 
     firstView.unmount();
     render(<App now={now} />);
 
-    expect(screen.getByRole("heading", { name: "購物＋飯店放鬆" })).toBeVisible();
+    expect(screen.getByRole("heading", { name: "Luge＋Brick Campus＋Outlet" })).toBeVisible();
   });
 
   it("keeps sunny and rainy progress separate", async () => {
@@ -30,9 +30,9 @@ describe("today itinerary", () => {
     const now = new Date("2026-08-02T01:00:00.000Z");
     render(<App now={now} />);
 
-    await user.click(screen.getByRole("button", { name: "設為目前行程：SEA LIFE Busan Aquarium" }));
+    await user.click(screen.getByRole("button", { name: "設為目前行程：BUSAN X the SKY；使用 BIG 5 A 組" }));
     expect(screen.getByText("目前", { selector: "span" }).closest("li")).toHaveTextContent(
-      "SEA LIFE Busan Aquarium",
+      "BUSAN X the SKY",
     );
 
     await user.click(screen.getByRole("button", { name: "切換為雨天行程" }));
@@ -42,7 +42,7 @@ describe("today itinerary", () => {
     await user.click(screen.getByRole("button", { name: "切換為晴天行程" }));
 
     expect(screen.getByText("目前", { selector: "span" }).closest("li")).toHaveTextContent(
-      "SEA LIFE Busan Aquarium",
+      "BUSAN X the SKY",
     );
   });
 
@@ -51,8 +51,8 @@ describe("today itinerary", () => {
     render(<App now={now} />);
 
     const nextRegion = screen.getByRole("region", { name: "現在／下一步" });
-    expect(nextRegion).toHaveTextContent("10:30～12:30");
-    expect(nextRegion).toHaveTextContent("SEA LIFE Busan Aquarium");
+    expect(nextRegion).toHaveTextContent("10:30～12:00");
+    expect(nextRegion).toHaveTextContent("BUSAN X the SKY");
   });
 
   it("shows only curated, short attention items", async () => {
@@ -87,7 +87,7 @@ describe("today itinerary", () => {
 
     expect(screen.getByRole("link", { name: "NAVER Map" })).toHaveAttribute(
       "href",
-      expect.stringContaining(encodeURIComponent("씨라이프 부산 아쿠아리움")),
+      expect.stringContaining(encodeURIComponent("부산 엑스 더 스카이")),
     );
     expect(screen.getByRole("link", { name: "Uber" })).toHaveAttribute(
       "href",
@@ -135,18 +135,18 @@ describe("today itinerary", () => {
     const now = new Date("2026-08-02T01:00:00.000Z");
     render(<App now={now} />);
 
-    await user.click(screen.getByRole("button", { name: "設為目前行程：SEA LIFE Busan Aquarium" }));
+    await user.click(screen.getByRole("button", { name: "設為目前行程：BUSAN X the SKY；使用 BIG 5 A 組" }));
     await user.click(screen.getByRole("button", { name: "下一步" }));
 
     expect(screen.getByText("目前", { selector: "span" }).closest("li")).toHaveTextContent(
-      "海雲台午餐",
+      "海雲台傳統市場午餐",
     );
 
     await user.click(screen.getByRole("button", { name: "略過" }));
 
-    expect(screen.getByText("已略過").closest("li")).toHaveTextContent("海雲台午餐");
+    expect(screen.getByText("已略過").closest("li")).toHaveTextContent("海雲台傳統市場午餐");
     expect(screen.getByText("目前", { selector: "span" }).closest("li")).toHaveTextContent(
-      "海雲台海灘散步、看海",
+      "海雲台海灘、Gunam-ro 短逛",
     );
   });
 
@@ -165,8 +165,8 @@ describe("today itinerary", () => {
 
     await user.click(screen.getByRole("button", { name: "行程" }));
 
-    expect(screen.getByText("水族館＋海雲台看海＋SPA")).toBeVisible();
-    expect(screen.getByText("購物＋飯店放鬆")).toBeVisible();
+    expect(screen.getByText("X the SKY＋海雲台＋SPA LAND＋西面")).toBeVisible();
+    expect(screen.getByText("Luge＋Brick Campus＋Outlet")).toBeVisible();
   });
 
   it("separates weather information from the itinerary mode and enlarges the route map", async () => {

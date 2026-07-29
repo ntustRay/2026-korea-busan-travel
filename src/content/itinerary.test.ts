@@ -20,7 +20,7 @@ describe("normal itinerary content", () => {
     expect(days[3]).toMatchObject({
       day: 4,
       date: "2026-08-03",
-      title: "松島海上纜車＋回程",
+      title: "松島纜車＋BIFF＋Lotte Mart＋機場",
     });
   });
 
@@ -42,11 +42,11 @@ describe("rainy itinerary content", () => {
       "2026-08-03",
     ]);
     expect(days[2]).toMatchObject({
-      title: "購物＋飯店放鬆",
+      title: "Luge＋Brick Campus＋Outlet",
     });
     expect(days[2]?.items).toContainEqual({
-      time: null,
-      label: "Lotte Department Store Gwangbok 室內購物、午餐",
+      time: "10:00～12:00",
+      label: "Skyline Luge；以官方顯示營運中為前提",
     });
   });
 });
