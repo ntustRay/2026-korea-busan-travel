@@ -1,62 +1,122 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 590" role="img" aria-labelledby="title desc">
-  <title id="title">松島、BIFF、Lotte Mart、飯店與金海機場路線圖</title>
-  <desc id="desc">飯店退房寄放行李後搭計程車到松島纜車，結束後到 BIFF 廣場午餐與 Lotte Mart 光復店購物，再回飯店取行李並搭軌道交通到金海機場。</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 820" role="img" aria-labelledby="title desc">
+  <title id="title">Day 4 松島、BIFF、Lotte Mart 與金海機場完整交通路線</title>
+  <desc id="desc">早上從釜山站旁飯店搭計程車到松島纜車，再到 BIFF 廣場與 Lotte Mart，回飯店取行李。之後從釜山站搭一號線到西面、轉二號線到沙上、再轉釜山金海輕軌到機場站，步行到國際航廈。</desc>
   <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3 z" fill="#334155"/></marker>
-    <style>.title{font:700 32px Arial,'Noto Sans TC',sans-serif;fill:#0f172a}.sub{font:500 18px Arial,'Noto Sans TC',sans-serif;fill:#475569}.box{fill:#fff;stroke:#cbd5e1;stroke-width:2;rx:18}.label{font:700 20px Arial,'Noto Sans TC',sans-serif;fill:#0f172a}.small{font:500 15px Arial,'Noto Sans TC',sans-serif;fill:#475569}.arrow{stroke:#334155;stroke-width:4;fill:none;marker-end:url(#arrow)}</style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0 0 L0 6 L9 3 z" fill="#334155"/>
+    </marker>
+    <style>
+      .title{font:700 32px Arial,'Noto Sans TC',sans-serif;fill:#0f172a}
+      .sub{font:500 18px Arial,'Noto Sans TC',sans-serif;fill:#475569}
+      .box{fill:#fff;stroke:#cbd5e1;stroke-width:2}
+      .label{font:700 19px Arial,'Noto Sans TC',sans-serif;fill:#0f172a}
+      .small{font:500 14px Arial,'Noto Sans TC',sans-serif;fill:#475569}
+      .route{font:700 17px Arial,'Noto Sans TC',sans-serif;fill:#334155}
+      .arrow{stroke:#334155;stroke-width:4;fill:none;marker-end:url(#arrow)}
+      .airport{stroke:#2563eb;stroke-width:4;fill:none;marker-end:url(#arrow)}
+    </style>
   </defs>
-  <rect width="1200" height="590" fill="#f8fafc"/>
-  <text x="60" y="58" class="title">回程日｜松島 → BIFF → Lotte Mart → 機場</text>
-  <text x="60" y="92" class="sub">14:20 離開樂天｜15:15 前離開飯店｜16:30 左右抵達 PUS</text>
 
-  <rect x="35" y="155" width="190" height="145" class="box"/>
-  <text x="130" y="200" text-anchor="middle" class="label">飯店／釜山站旁</text>
-  <text x="130" y="237" text-anchor="middle" class="small">Hound Hotel｜09:15 退房寄行李</text>
-  <text x="130" y="270" text-anchor="middle" class="small">09:30 Taxi 出發</text>
+  <rect width="1500" height="820" fill="#f8fafc"/>
+  <text x="45" y="56" class="title">Day 4｜松島 → BIFF → Lotte Mart → 飯店 → 金海機場</text>
+  <text x="45" y="89" class="sub">上排最後回飯店取行李；下排把三段軌道交通與每個轉乘站完整畫出</text>
 
-  <path d="M225 228 H310" class="arrow"/>
-  <text x="267" y="202" text-anchor="middle" class="small">Taxi</text>
+  <text x="45" y="135" class="route">上午行程＋回飯店</text>
 
-  <rect x="315" y="135" width="220" height="185" fill="#ecfeff" stroke="#22d3ee" stroke-width="2" rx="18"/>
-  <text x="425" y="182" text-anchor="middle" class="label">松島海上纜車</text>
-  <text x="425" y="220" text-anchor="middle" class="small">송도해상케이블카</text>
-  <text x="425" y="255" text-anchor="middle" class="small">10:00～11:45</text>
-  <text x="425" y="290" text-anchor="middle" class="small">來回、不走長程步道</text>
+  <rect x="35" y="160" width="215" height="165" rx="18" class="box"/>
+  <text x="142" y="202" text-anchor="middle" class="label">飯店／釜山站旁</text>
+  <text x="142" y="239" text-anchor="middle" class="small">Hound Hotel</text>
+  <text x="142" y="273" text-anchor="middle" class="small">09:15 退房寄行李</text>
+  <text x="142" y="301" text-anchor="middle" class="small">09:30 Taxi 出發</text>
 
-  <path d="M535 228 H620" class="arrow"/>
-  <text x="577" y="202" text-anchor="middle" class="small">Taxi</text>
+  <path d="M250 243 H315" class="arrow"/>
+  <text x="282" y="214" text-anchor="middle" class="small">Taxi</text>
 
-  <rect x="625" y="155" width="185" height="145" fill="#fff7ed" stroke="#fb923c" stroke-width="2" rx="18"/>
-  <text x="717" y="200" text-anchor="middle" class="label">BIFF 廣場</text>
-  <text x="717" y="238" text-anchor="middle" class="small">BIFF 광장</text>
-  <text x="717" y="270" text-anchor="middle" class="small">12:05～13:10 午餐</text>
+  <rect x="320" y="145" width="225" height="195" rx="18" fill="#ecfeff" stroke="#22d3ee" stroke-width="2"/>
+  <text x="432" y="191" text-anchor="middle" class="label">松島海上纜車</text>
+  <text x="432" y="228" text-anchor="middle" class="small">송도해상케이블카</text>
+  <text x="432" y="265" text-anchor="middle" class="small">10:00～11:45</text>
+  <text x="432" y="299" text-anchor="middle" class="small">搭來回</text>
+  <text x="432" y="326" text-anchor="middle" class="small">不走長程步道</text>
 
-  <path d="M810 228 H895" class="arrow"/>
-  <text x="852" y="193" text-anchor="middle" class="small">步行／地鐵一站</text>
-  <text x="852" y="215" text-anchor="middle" class="small">或短程 Taxi</text>
+  <path d="M545 243 H610" class="arrow"/>
+  <text x="577" y="214" text-anchor="middle" class="small">Taxi</text>
 
-  <rect x="900" y="135" width="260" height="185" fill="#eef2ff" stroke="#818cf8" stroke-width="2" rx="18"/>
-  <text x="1030" y="182" text-anchor="middle" class="label">Lotte Mart Gwangbok</text>
-  <text x="1030" y="220" text-anchor="middle" class="small">롯데마트 광복점</text>
-  <text x="1030" y="255" text-anchor="middle" class="small">13:30～14:20</text>
-  <text x="1030" y="290" text-anchor="middle" class="small">남포역連通</text>
+  <rect x="615" y="160" width="190" height="165" rx="18" fill="#fff7ed" stroke="#fb923c" stroke-width="2"/>
+  <text x="710" y="205" text-anchor="middle" class="label">BIFF 廣場</text>
+  <text x="710" y="242" text-anchor="middle" class="small">BIFF 광장</text>
+  <text x="710" y="278" text-anchor="middle" class="small">12:05～13:10</text>
+  <text x="710" y="306" text-anchor="middle" class="small">午餐</text>
 
-  <path d="M1030 320 C970 400 300 410 160 300" class="arrow"/>
-  <text x="610" y="395" text-anchor="middle" class="label">남포역 Line 1 → 부산역 → 飯店取行李</text>
+  <path d="M805 243 H870" class="arrow"/>
+  <text x="837" y="207" text-anchor="middle" class="small">步行／短程 Taxi</text>
 
-  <rect x="35" y="440" width="220" height="100" fill="#fee2e2" stroke="#f87171" stroke-width="2" rx="16"/>
-  <text x="145" y="480" text-anchor="middle" class="label">15:15 前離開飯店</text>
-  <text x="145" y="515" text-anchor="middle" class="small">晚於此時間不再增加行程</text>
+  <rect x="875" y="145" width="235" height="195" rx="18" fill="#eef2ff" stroke="#818cf8" stroke-width="2"/>
+  <text x="992" y="191" text-anchor="middle" class="label">Lotte Mart Gwangbok</text>
+  <text x="992" y="228" text-anchor="middle" class="small">롯데마트 광복점</text>
+  <text x="992" y="265" text-anchor="middle" class="small">13:30～14:20</text>
+  <text x="992" y="299" text-anchor="middle" class="small">連通 남포역</text>
+  <text x="992" y="326" text-anchor="middle" class="small">搭 Line 1 回 부산역</text>
 
-  <path d="M255 490 H365" class="arrow"/>
-  <rect x="370" y="430" width="480" height="120" class="box"/>
-  <text x="610" y="470" text-anchor="middle" class="label">부산역 → 서면역 → 사상역 → 공항역</text>
-  <text x="610" y="507" text-anchor="middle" class="small">Line 1 → Line 2 → Busan-Gimhae Light Rail</text>
-  <text x="610" y="535" text-anchor="middle" class="small">抓 70～90 分鐘</text>
+  <path d="M1110 243 H1175" class="arrow"/>
 
-  <path d="M850 490 H940" class="arrow"/>
-  <rect x="945" y="430" width="215" height="120" fill="#ecfdf5" stroke="#4ade80" stroke-width="2" rx="16"/>
-  <text x="1052" y="470" text-anchor="middle" class="label">金海國際航廈</text>
-  <text x="1052" y="507" text-anchor="middle" class="small">約 16:30 抵達</text>
-  <text x="1052" y="535" text-anchor="middle" class="small">BR163｜19:10</text>
+  <rect x="1180" y="160" width="275" height="165" rx="18" fill="#fee2e2" stroke="#f87171" stroke-width="2"/>
+  <text x="1317" y="202" text-anchor="middle" class="label">飯店取行李</text>
+  <text x="1317" y="239" text-anchor="middle" class="small">남포역 Line 1 → 부산역</text>
+  <text x="1317" y="273" text-anchor="middle" class="small">14:40 左右回飯店</text>
+  <text x="1317" y="301" text-anchor="middle" class="small">15:15 前往機場</text>
+
+  <text x="45" y="405" class="route" fill="#2563eb">前往金海機場｜不是文字摘要，每個轉乘站都畫成節點</text>
+
+  <rect x="35" y="440" width="220" height="175" rx="18" fill="#eff6ff" stroke="#60a5fa" stroke-width="2"/>
+  <circle cx="75" cy="484" r="14" fill="#f97316"/>
+  <text x="150" y="491" text-anchor="middle" class="label">釜山站</text>
+  <text x="145" y="528" text-anchor="middle" class="small">부산역</text>
+  <text x="145" y="562" text-anchor="middle" class="small">Line 1 往 노포</text>
+  <text x="145" y="591" text-anchor="middle" class="small">搭到 서면역</text>
+
+  <path d="M255 528 H330" class="airport"/>
+  <text x="292" y="496" text-anchor="middle" class="small">約 6 站</text>
+
+  <rect x="335" y="425" width="235" height="205" rx="18" fill="#eff6ff" stroke="#60a5fa" stroke-width="2"/>
+  <circle cx="375" cy="470" r="14" fill="#f97316"/>
+  <text x="465" y="477" text-anchor="middle" class="label">西面站轉乘</text>
+  <text x="452" y="514" text-anchor="middle" class="small">서면역</text>
+  <text x="452" y="548" text-anchor="middle" class="small">轉 Line 2 往 양산</text>
+  <text x="452" y="580" text-anchor="middle" class="small">依 2호선 指標</text>
+  <text x="452" y="609" text-anchor="middle" class="small">搭到 사상역</text>
+
+  <path d="M570 528 H645" class="airport"/>
+  <text x="607" y="496" text-anchor="middle" class="small">約 8 站</text>
+
+  <rect x="650" y="425" width="250" height="205" rx="18" fill="#eff6ff" stroke="#60a5fa" stroke-width="2"/>
+  <circle cx="690" cy="470" r="14" fill="#16a34a"/>
+  <text x="790" y="477" text-anchor="middle" class="label">沙上站轉乘</text>
+  <text x="775" y="514" text-anchor="middle" class="small">사상역</text>
+  <text x="775" y="548" text-anchor="middle" class="small">轉 부산김해경전철</text>
+  <text x="775" y="580" text-anchor="middle" class="small">往 가야대 方向</text>
+  <text x="775" y="609" text-anchor="middle" class="small">搭到 공항역</text>
+
+  <path d="M900 528 H975" class="airport"/>
+  <text x="937" y="496" text-anchor="middle" class="small">約 3 站</text>
+
+  <rect x="980" y="440" width="205" height="175" rx="18" fill="#eff6ff" stroke="#60a5fa" stroke-width="2"/>
+  <circle cx="1020" cy="484" r="14" fill="#9333ea"/>
+  <text x="1095" y="491" text-anchor="middle" class="label">機場站</text>
+  <text x="1082" y="528" text-anchor="middle" class="small">공항역</text>
+  <text x="1082" y="562" text-anchor="middle" class="small">下車後依</text>
+  <text x="1082" y="591" text-anchor="middle" class="small">국제선 指標步行</text>
+
+  <path d="M1185 528 H1260" class="airport"/>
+  <text x="1222" y="496" text-anchor="middle" class="small">5–10 分</text>
+
+  <rect x="1265" y="440" width="200" height="175" rx="18" fill="#ecfdf5" stroke="#4ade80" stroke-width="3"/>
+  <text x="1365" y="489" text-anchor="middle" class="label">金海國際航廈</text>
+  <text x="1365" y="528" text-anchor="middle" class="small">김해국제공항 국제선</text>
+  <text x="1365" y="566" text-anchor="middle" class="small">約 16:30 抵達</text>
+  <text x="1365" y="596" text-anchor="middle" class="small">BR163｜19:10</text>
+
+  <rect x="35" y="680" width="1430" height="95" rx="16" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="750" y="720" text-anchor="middle" class="route">完整機場路線：부산역 → 서면역轉 Line 2 → 사상역轉 부산김해경전철 → 공항역 → 國際航廈</text>
+  <text x="750" y="754" text-anchor="middle" class="small">從飯店離開到國際航廈抓 70～90 分鐘；15:15 是最晚離開飯店的保守時間</text>
 </svg>
