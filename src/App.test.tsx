@@ -71,6 +71,20 @@ describe("today itinerary", () => {
     expect(screen.queryByText("翻譯菜單、對話與韓文圖片")).not.toBeInTheDocument();
   });
 
+  it("keeps food suggestions compact and links to the full 10 plus 10 lists", async () => {
+    const user = userEvent.setup();
+    const now = new Date("2026-08-02T01:00:00.000Z");
+    render(<App now={now} />);
+
+    const tasteNote = screen.getByLabelText("今日順路吃買");
+    expect(tasteNote).toHaveTextContent("西面晚餐：辣炒章魚牛腸蝦");
+    expect(tasteNote).toHaveTextContent("點心：釜山魚板");
+
+    await user.click(screen.getByRole("button", { name: "10＋10" }));
+    expect(screen.getByText("釜山必吃", { selector: "strong" })).toBeVisible();
+    expect(screen.getByText("韓國必買", { selector: "strong" })).toBeVisible();
+  });
+
   it("does not expose unorganized raw notes", async () => {
     const user = userEvent.setup();
     const now = new Date("2026-08-02T01:00:00.000Z");
