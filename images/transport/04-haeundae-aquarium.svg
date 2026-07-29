@@ -1,37 +1,101 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
-  <title id="title">海雲台站到 SEA LIFE 水族館步行示意圖</title>
-  <desc id="desc">從海雲台站三號或五號出口，依海雲台海水浴場標示直走約十分鐘到海邊與 SEA LIFE Busan Aquarium。</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 780" role="img" aria-labelledby="title desc">
+  <title id="title">Day 3 釜山站至海雲台晴天與雨天路線</title>
+  <desc id="desc">從釜山站搭一號線到西面，轉二號線。晴天在中洞站下車前往 BUSAN X the SKY、海灘與市場；雨天在海雲台站下車前往 SEA LIFE。兩條路線最後都回到海雲台站，接續下一張前往 SPA LAND。</desc>
   <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3 z" fill="#334155"/></marker>
-    <style>.title{font:700 32px Arial,'Noto Sans TC',sans-serif;fill:#0f172a}.sub{font:500 18px Arial,'Noto Sans TC',sans-serif;fill:#475569}.box{fill:#fff;stroke:#cbd5e1;stroke-width:2;rx:18}.label{font:700 22px Arial,'Noto Sans TC',sans-serif;fill:#0f172a}.small{font:500 17px Arial,'Noto Sans TC',sans-serif;fill:#475569}.arrow{stroke:#334155;stroke-width:4;fill:none;marker-end:url(#arrow)}</style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0 0 L0 6 L9 3 z" fill="#334155"/>
+    </marker>
+    <style>
+      .title{font:700 32px Arial,'Noto Sans TC',sans-serif;fill:#0f172a}
+      .sub{font:500 18px Arial,'Noto Sans TC',sans-serif;fill:#475569}
+      .box{fill:#fff;stroke:#cbd5e1;stroke-width:2}
+      .label{font:700 20px Arial,'Noto Sans TC',sans-serif;fill:#0f172a}
+      .small{font:500 15px Arial,'Noto Sans TC',sans-serif;fill:#475569}
+      .route{font:700 17px Arial,'Noto Sans TC',sans-serif;fill:#334155}
+      .arrow{stroke:#334155;stroke-width:4;fill:none;marker-end:url(#arrow)}
+      .sun{stroke:#f59e0b;stroke-width:4;fill:none;marker-end:url(#arrow)}
+      .rain{stroke:#0ea5e9;stroke-width:4;fill:none;marker-end:url(#arrow)}
+    </style>
   </defs>
-  <rect width="1200" height="500" fill="#f8fafc"/>
-  <text x="60" y="58" class="title">海雲台站 → SEA LIFE → 海邊</text>
-  <text x="60" y="92" class="sub">官方建議由 3 或 5 號出口步行約 10 分鐘；只要一路看「해운대해수욕장」即可</text>
 
-  <rect x="65" y="165" width="250" height="150" class="box"/>
-  <circle cx="115" cy="208" r="15" fill="#16a34a"/>
-  <text x="200" y="214" text-anchor="middle" class="label">海雲台站</text>
-  <text x="190" y="250" text-anchor="middle" class="small">해운대역</text>
-  <text x="190" y="282" text-anchor="middle" class="small">3번 / 5번 출구</text>
+  <rect width="1500" height="780" fill="#f8fafc"/>
+  <text x="45" y="56" class="title">Day 3｜釜山站 → 西面轉乘 → 海雲台晴天／雨天</text>
+  <text x="45" y="89" class="sub">本張終點統一停在海雲台站；到站後直接接續 05 前往 SPA LAND</text>
 
-  <path d="M315 240 H650" class="arrow"/>
-  <text x="482" y="205" text-anchor="middle" class="label">直走往海邊</text>
-  <text x="482" y="272" text-anchor="middle" class="small">約 10 分鐘｜經海雲台大街</text>
-  <text x="482" y="300" text-anchor="middle" class="small">沿途看到 해운대해수욕장 指標就對了</text>
+  <rect x="40" y="130" width="200" height="145" rx="18" class="box"/>
+  <circle cx="78" cy="171" r="14" fill="#f97316"/>
+  <text x="148" y="178" text-anchor="middle" class="label">釜山站</text>
+  <text x="140" y="215" text-anchor="middle" class="small">부산역</text>
+  <text x="140" y="247" text-anchor="middle" class="small">Line 1 往 노포</text>
 
-  <rect x="655" y="145" width="260" height="185" fill="#ecfeff" stroke="#22d3ee" stroke-width="2" rx="18"/>
-  <text x="785" y="192" text-anchor="middle" class="label">SEA LIFE Busan</text>
-  <text x="785" y="230" text-anchor="middle" class="small">씨라이프 부산 아쿠아리움</text>
-  <text x="785" y="264" text-anchor="middle" class="small">해운대해변로 266</text>
-  <text x="785" y="297" text-anchor="middle" class="small">入口就在海灘旁</text>
+  <path d="M240 202 H320" class="arrow"/>
 
-  <path d="M915 240 H1035" class="arrow"/>
-  <rect x="1040" y="155" width="120" height="165" fill="#dbeafe" stroke="#60a5fa" stroke-width="2" rx="18"/>
-  <path d="M1055 220 Q1080 195 1105 220 T1150 220" fill="none" stroke="#2563eb" stroke-width="5"/>
-  <text x="1100" y="263" text-anchor="middle" class="label">海邊</text>
-  <text x="1100" y="295" text-anchor="middle" class="small">해운대해수욕장</text>
+  <rect x="325" y="115" width="235" height="175" rx="18" class="box"/>
+  <circle cx="365" cy="158" r="14" fill="#f97316"/>
+  <text x="455" y="165" text-anchor="middle" class="label">西面站轉乘</text>
+  <text x="442" y="202" text-anchor="middle" class="small">서면역</text>
+  <text x="442" y="235" text-anchor="middle" class="small">轉 Line 2 往 장산</text>
+  <text x="442" y="265" text-anchor="middle" class="small">不要搭往 양산</text>
 
-  <rect x="65" y="375" width="1095" height="72" fill="#fff7ed" stroke="#fdba74" stroke-width="2" rx="14"/>
-  <text x="612" y="419" text-anchor="middle" class="label">不要另外搭車：水族館離場後直接看海，再原路走回 해운대역 前往 SPA LAND。</text>
+  <text x="625" y="145" class="route" fill="#b45309">晴天｜在 중동역 下車</text>
+  <path d="M560 190 C635 190 610 240 680 240" class="sun"/>
+
+  <rect x="685" y="170" width="195" height="145" rx="18" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+  <circle cx="723" cy="211" r="14" fill="#16a34a"/>
+  <text x="790" y="218" text-anchor="middle" class="label">中洞站</text>
+  <text x="782" y="254" text-anchor="middle" class="small">중동역</text>
+  <text x="782" y="286" text-anchor="middle" class="small">步行／短程 Taxi</text>
+
+  <path d="M880 242 H945" class="sun"/>
+
+  <rect x="950" y="155" width="220" height="175" rx="18" fill="#eef2ff" stroke="#818cf8" stroke-width="2"/>
+  <text x="1060" y="202" text-anchor="middle" class="label">BUSAN X the SKY</text>
+  <text x="1060" y="240" text-anchor="middle" class="small">부산엑스더스카이</text>
+  <text x="1060" y="277" text-anchor="middle" class="small">10:30～12:00</text>
+  <text x="1060" y="307" text-anchor="middle" class="small">BIG 5｜A 組</text>
+
+  <path d="M1170 242 H1235" class="sun"/>
+
+  <rect x="1240" y="155" width="220" height="175" rx="18" fill="#fff7ed" stroke="#fb923c" stroke-width="2"/>
+  <text x="1350" y="202" text-anchor="middle" class="label">海灘＋傳統市場</text>
+  <text x="1350" y="240" text-anchor="middle" class="small">해운대해수욕장</text>
+  <text x="1350" y="273" text-anchor="middle" class="small">해운대전통시장</text>
+  <text x="1350" y="306" text-anchor="middle" class="small">散步＋午餐</text>
+
+  <text x="625" y="410" class="route" fill="#0369a1">雨天｜在 해운대역 下車</text>
+  <path d="M560 215 C625 250 610 465 680 465" class="rain"/>
+
+  <rect x="685" y="395" width="195" height="145" rx="18" fill="#ecfeff" stroke="#22d3ee" stroke-width="2"/>
+  <circle cx="723" cy="436" r="14" fill="#16a34a"/>
+  <text x="790" y="443" text-anchor="middle" class="label">海雲台站</text>
+  <text x="782" y="479" text-anchor="middle" class="small">해운대역</text>
+  <text x="782" y="511" text-anchor="middle" class="small">3／5 號出口</text>
+
+  <path d="M880 467 H970" class="rain"/>
+  <text x="925" y="437" text-anchor="middle" class="small">步行約 10 分</text>
+
+  <rect x="975" y="380" width="240" height="175" rx="18" fill="#ecfeff" stroke="#22d3ee" stroke-width="2"/>
+  <text x="1095" y="427" text-anchor="middle" class="label">SEA LIFE Busan</text>
+  <text x="1095" y="465" text-anchor="middle" class="small">씨라이프 부산 아쿠아리움</text>
+  <text x="1095" y="502" text-anchor="middle" class="small">10:30～12:30</text>
+  <text x="1095" y="532" text-anchor="middle" class="small">結束後走回海雲台站</text>
+
+  <path d="M1350 330 C1350 355 1320 375 1310 420" class="sun"/>
+  <path d="M1215 467 H1260" class="rain"/>
+
+  <rect x="1265" y="395" width="195" height="160" rx="18" fill="#dcfce7" stroke="#22c55e" stroke-width="3"/>
+  <circle cx="1303" cy="436" r="14" fill="#16a34a"/>
+  <text x="1370" y="443" text-anchor="middle" class="label">海雲台站</text>
+  <text x="1362" y="479" text-anchor="middle" class="small">해운대역</text>
+  <text x="1362" y="513" text-anchor="middle" class="small">04 終點</text>
+  <text x="1362" y="540" text-anchor="middle" class="small">接續 05</text>
+
+  <path d="M1362 555 V620" class="arrow"/>
+  <rect x="1090" y="625" width="370" height="95" rx="16" fill="#eff6ff" stroke="#60a5fa" stroke-width="2"/>
+  <text x="1275" y="665" text-anchor="middle" class="label">下一張：05-centum-spaland.svg</text>
+  <text x="1275" y="699" text-anchor="middle" class="small">從同一個 해운대역 出發前往 Centum City</text>
+
+  <rect x="40" y="625" width="960" height="95" rx="16" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="520" y="665" text-anchor="middle" class="route">共同搭法：부산역 Line 1 往 노포 → 서면역轉 Line 2 往 장산</text>
+  <text x="520" y="699" text-anchor="middle" class="small">晴天在 중동역 下車｜雨天在 해운대역 下車</text>
 </svg>

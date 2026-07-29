@@ -30,17 +30,17 @@ npm run test:e2e
 - **移動原則**：避免長距離移動、頻繁轉乘與跨區折返
 - **行程密度**：每天安排少量重點景點，保留休息與彈性時間
 - **住宿原則**：三晚住同一間飯店，不更換住宿
-- **天候原則**：戶外行程可以整天互換，不在現場長時間等雨停
+- **天候原則**：Day 2、Day 3 可依逐時天氣整天互換，不在現場長時間等雨停
 - **用餐原則**：不預排餐廳，依當下區域與狀態現場決定
 - **同行原則**：兩人全程一起行動，不安排分頭行程
 
 ## 行程文件
 
 - [旅行規劃詞彙](./CONTEXT.md)：無腦放鬆、戶外日、室內日、現場用餐與回程硬規則
-- [正常行程](./itinerary-normal.md)：Luge＋Outlet、水族館＋SPA、松島纜車
+- [正常行程](./itinerary-normal.md)：Luge＋Brick Campus＋Outlet、X the SKY＋SPA＋西面、松島＋南浦
 - [雨備行程](./itinerary-rainy.md)：依逐時天氣互換戶外日與室內日
 - [詳細交通筆記](./交通.md)：機場、飯店與各景點的逐段路線、轉乘方向、韓文站名與 Taxi 用語
-- [Visit Busan Pass 購買與使用](./visit-busan-pass.md)：BIG 5 購買連結、即買即用規則、使用方式與省錢估算
+- [Visit Busan Pass 購買與使用](./visit-busan-pass.md)：BIG 5 購買門檻、A／B 組用法與省錢估算
 - [出發前注意事項](./出發前注意事項.md)：入境文件、eSIM、轉接頭、行動電源、禁帶物品、常備藥品與打包清單
 - [韓國與釜山文化注意事項](./韓國與釜山文化注意事項.md)：餐廳、交通、傳統市場、SPA、拍照禮貌與實用韓文
 - [Android 韓國必裝 App](./必裝%20Korean%20APP.md)：NAVER Map、Papago、k.ride、Visit Busan Pass、長榮與手機設定
@@ -50,10 +50,11 @@ npm run test:e2e
 
 1. Skyline Luge Busan
 2. 松島海上纜車
-3. 購物
+3. 購物（Outlet、西面、Lotte Mart）
 4. SPA LAND Centum City
-5. SEA LIFE Busan Aquarium
-6. 至少一天看海
+5. BUSAN X the SKY（晴天）
+6. SEA LIFE Busan Aquarium（雨天）
+7. 至少一天看海
 
 ## 航班資訊
 
