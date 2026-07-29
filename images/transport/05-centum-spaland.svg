@@ -1,40 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
-  <title id="title">Centum City 站到 SPA LAND 示意圖</title>
-  <desc id="desc">由海雲台站搭地鐵二號線往梁山方向到 Centum City 站，依新世界百貨與 Spa Land 標示走地下連通區，前往百貨一樓。</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">海雲台、SPA LAND、西面與釜山站路線圖</title>
+  <desc id="desc">由海雲台搭地鐵二號線到 Centum City，經地下連通道前往 SPA LAND，結束後搭二號線到西面，再搭一號線回釜山站。</desc>
   <defs>
     <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3 z" fill="#334155"/></marker>
-    <style>.title{font:700 32px Arial,'Noto Sans TC',sans-serif;fill:#0f172a}.sub{font:500 18px Arial,'Noto Sans TC',sans-serif;fill:#475569}.box{fill:#fff;stroke:#cbd5e1;stroke-width:2;rx:18}.label{font:700 22px Arial,'Noto Sans TC',sans-serif;fill:#0f172a}.small{font:500 17px Arial,'Noto Sans TC',sans-serif;fill:#475569}.arrow{stroke:#334155;stroke-width:4;fill:none;marker-end:url(#arrow)}</style>
+    <style>.title{font:700 32px Arial,'Noto Sans TC',sans-serif;fill:#0f172a}.sub{font:500 18px Arial,'Noto Sans TC',sans-serif;fill:#475569}.box{fill:#fff;stroke:#cbd5e1;stroke-width:2;rx:18}.label{font:700 21px Arial,'Noto Sans TC',sans-serif;fill:#0f172a}.small{font:500 16px Arial,'Noto Sans TC',sans-serif;fill:#475569}.arrow{stroke:#334155;stroke-width:4;fill:none;marker-end:url(#arrow)}</style>
   </defs>
-  <rect width="1200" height="500" fill="#f8fafc"/>
-  <text x="60" y="58" class="title">海雲台 → SPA LAND｜Centum City 轉折點</text>
-  <text x="60" y="92" class="sub">重點不是出口號碼，而是一路跟著「신세계백화점 / 스파랜드」地下標示走</text>
+  <rect width="1200" height="520" fill="#f8fafc"/>
+  <text x="60" y="58" class="title">海雲台 → SPA LAND → 西面 → 飯店</text>
+  <text x="60" y="92" class="sub">SPA 結束後 Line 2 直達西面；逛完換 Line 1 回釜山站</text>
 
-  <rect x="60" y="160" width="235" height="145" class="box"/>
-  <circle cx="105" cy="203" r="15" fill="#16a34a"/>
-  <text x="185" y="209" text-anchor="middle" class="label">海雲台站</text>
-  <text x="178" y="245" text-anchor="middle" class="small">해운대역</text>
-  <text x="178" y="277" text-anchor="middle" class="small">Line 2 往 양산</text>
+  <rect x="45" y="165" width="200" height="145" class="box"/>
+  <circle cx="85" cy="205" r="14" fill="#16a34a"/>
+  <text x="155" y="212" text-anchor="middle" class="label">海雲台站</text>
+  <text x="145" y="248" text-anchor="middle" class="small">해운대역</text>
+  <text x="145" y="280" text-anchor="middle" class="small">Line 2 往 양산</text>
 
-  <path d="M295 232 H455" class="arrow"/>
-  <text x="375" y="204" text-anchor="middle" class="small">約 3 站</text>
+  <path d="M245 235 H335" class="arrow"/>
+  <text x="290" y="207" text-anchor="middle" class="small">約 3 站</text>
 
-  <rect x="460" y="145" width="260" height="175" class="box"/>
-  <circle cx="505" cy="190" r="15" fill="#16a34a"/>
-  <text x="600" y="197" text-anchor="middle" class="label">Centum City 站</text>
-  <text x="590" y="235" text-anchor="middle" class="small">센텀시티역</text>
-  <text x="590" y="270" text-anchor="middle" class="small">不要急著走到戶外</text>
-  <text x="590" y="299" text-anchor="middle" class="small">找百貨地下連通方向</text>
+  <rect x="340" y="145" width="250" height="185" class="box"/>
+  <circle cx="382" cy="190" r="14" fill="#16a34a"/>
+  <text x="480" y="197" text-anchor="middle" class="label">Centum City</text>
+  <text x="465" y="235" text-anchor="middle" class="small">센텀시티역</text>
+  <text x="465" y="270" text-anchor="middle" class="small">不要先走到戶外</text>
+  <text x="465" y="302" text-anchor="middle" class="small">找 신세계백화점／스파랜드</text>
 
-  <path d="M720 232 H875" class="arrow"/>
-  <text x="798" y="193" text-anchor="middle" class="small">跟著這兩個字樣</text>
-  <text x="798" y="217" text-anchor="middle" style="font:700 20px Arial,'Noto Sans KR',sans-serif;fill:#1d4ed8">신세계백화점 · 스파랜드</text>
+  <path d="M590 235 H680" class="arrow"/>
+  <rect x="685" y="145" width="230" height="185" fill="#fef3c7" stroke="#f59e0b" stroke-width="2" rx="18"/>
+  <text x="800" y="195" text-anchor="middle" class="label">SPA LAND</text>
+  <text x="800" y="235" text-anchor="middle" class="small">스파랜드 센텀시티</text>
+  <text x="800" y="272" text-anchor="middle" class="small">15:00～18:30</text>
+  <text x="800" y="305" text-anchor="middle" class="small">控制在 4 小時內</text>
 
-  <rect x="880" y="135" width="260" height="195" fill="#fef3c7" stroke="#f59e0b" stroke-width="2" rx="18"/>
-  <text x="1010" y="185" text-anchor="middle" class="label">Shinsegae Centum City</text>
-  <text x="1010" y="223" text-anchor="middle" class="small">신세계백화점 센텀시티점</text>
-  <text x="1010" y="258" text-anchor="middle" class="label">SPA LAND｜1F</text>
-  <text x="1010" y="294" text-anchor="middle" class="small">스파랜드 센텀시티</text>
+  <path d="M915 235 H1005" class="arrow"/>
+  <rect x="1010" y="155" width="150" height="165" fill="#fee2e2" stroke="#f87171" stroke-width="2" rx="18"/>
+  <text x="1085" y="205" text-anchor="middle" class="label">西面</text>
+  <text x="1085" y="243" text-anchor="middle" class="small">서면역</text>
+  <text x="1085" y="278" text-anchor="middle" class="small">晚餐＋商圈</text>
+  <text x="1085" y="304" text-anchor="middle" class="small">19:00～21:00</text>
 
-  <rect x="60" y="375" width="1080" height="72" fill="#eff6ff" stroke="#60a5fa" stroke-width="2" rx="14"/>
-  <text x="600" y="419" text-anchor="middle" class="label">看不到 SPA LAND 時：先找 신세계백화점（新世界百貨），進百貨後再確認 1F 導覽。</text>
+  <path d="M1085 320 C1040 425 310 455 180 310" class="arrow"/>
+  <text x="625" y="435" text-anchor="middle" class="label">서면역 Line 1 往 다대포해수욕장 → 부산역 6번 출구</text>
+
+  <rect x="45" y="370" width="360" height="72" fill="#eff6ff" stroke="#60a5fa" stroke-width="2" rx="14"/>
+  <text x="225" y="400" text-anchor="middle" class="small">看不到 SPA：先找 신세계백화점</text>
+  <text x="225" y="428" text-anchor="middle" class="small">進百貨後再看 1F 導覽</text>
 </svg>
