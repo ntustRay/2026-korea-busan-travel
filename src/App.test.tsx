@@ -204,7 +204,7 @@ describe("today itinerary", () => {
     await user.click(screen.getByRole("button", { name: "行前" }));
     await user.click(screen.getByRole("button", { name: "確認兩本護照效期與機票英文姓名" }));
     await user.click(screen.getByRole("button", { name: "標示已安裝：NAVER Map" }));
-    expect(screen.getByText("1／14 項完成")).toBeVisible();
+    expect(screen.getByText("1／21 項完成")).toBeVisible();
     expect(screen.getByText("1／7")).toBeVisible();
     expect(screen.getAllByRole("link", { name: "開啟" })[0]).toHaveAttribute("href", expect.stringContaining("package=com.nhn.android.nmap"));
 
