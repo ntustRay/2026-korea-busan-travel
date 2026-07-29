@@ -1,63 +1,104 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 650" role="img" aria-labelledby="title desc">
-  <title id="title">釜山站到 Skyline Luge、Brick Campus 與 Outlet 完整路線</title>
-  <desc id="desc">從釜山站搭一號線往老圃方向到教大站，轉東海線往太和江或日光方向到奧西利亞站，再搭計程車前往 Skyline Luge、Brick Campus 與 Outlet。</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Day 2 釜山站往返奧西利亞、Skyline Luge 與 Outlet 路線</title>
+  <desc id="desc">從釜山站搭一號線到教大站，轉東海線到奧西利亞站，再搭計程車前往 Skyline Luge 與 Outlet。回程從 Outlet 搭計程車回奧西利亞站，經教大站轉一號線回釜山站。</desc>
   <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3 z" fill="#334155"/></marker>
-    <style>.title{font:700 32px Arial,'Noto Sans TC',sans-serif;fill:#0f172a}.sub{font:500 18px Arial,'Noto Sans TC',sans-serif;fill:#475569}.box{fill:#fff;stroke:#cbd5e1;stroke-width:2;rx:18}.label{font:700 20px Arial,'Noto Sans TC',sans-serif;fill:#0f172a}.small{font:500 15px Arial,'Noto Sans TC',sans-serif;fill:#475569}.arrow{stroke:#334155;stroke-width:4;fill:none;marker-end:url(#arrow)}</style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0 0 L0 6 L9 3 z" fill="#334155"/>
+    </marker>
+    <style>
+      .title{font:700 32px Arial,'Noto Sans TC',sans-serif;fill:#0f172a}
+      .sub{font:500 18px Arial,'Noto Sans TC',sans-serif;fill:#475569}
+      .box{fill:#fff;stroke:#cbd5e1;stroke-width:2}
+      .label{font:700 20px Arial,'Noto Sans TC',sans-serif;fill:#0f172a}
+      .small{font:500 15px Arial,'Noto Sans TC',sans-serif;fill:#475569}
+      .route{font:700 17px Arial,'Noto Sans TC',sans-serif;fill:#334155}
+      .arrow{stroke:#334155;stroke-width:4;fill:none;marker-end:url(#arrow)}
+      .return{stroke:#2563eb;stroke-width:4;fill:none;marker-end:url(#arrow)}
+    </style>
   </defs>
-  <rect width="1400" height="650" fill="#f8fafc"/>
-  <text x="55" y="55" class="title">Day 2｜釜山站 → Osiria → Luge → Brick Campus／Outlet</text>
-  <text x="55" y="88" class="sub">先搭 Line 1 到教大，再轉東海線；抵達 Osiria 後改搭短程 Taxi</text>
 
-  <rect x="40" y="145" width="210" height="145" fill="#fff7ed" stroke="#fb923c" stroke-width="2" rx="18"/>
-  <circle cx="80" cy="185" r="14" fill="#f97316"/>
-  <text x="155" y="192" text-anchor="middle" class="label">釜山站</text>
-  <text x="145" y="228" text-anchor="middle" class="small">부산역</text>
-  <text x="145" y="260" text-anchor="middle" class="small">Line 1 往 노포</text>
+  <rect width="1400" height="760" fill="#f8fafc"/>
+  <text x="45" y="56" class="title">Day 2｜釜山站 → Luge → Brick Campus／Outlet → 釜山站</text>
+  <text x="45" y="89" class="sub">上排去程、下排回程；回程每一個轉乘站都完整畫出</text>
 
-  <path d="M250 218 H355" class="arrow"/>
-  <text x="302" y="188" text-anchor="middle" class="small">Line 1 約 25 分鐘</text>
+  <text x="45" y="137" class="route">去程</text>
 
-  <rect x="360" y="130" width="250" height="175" class="box"/>
-  <circle cx="402" cy="172" r="14" fill="#f97316"/>
-  <text x="500" y="180" text-anchor="middle" class="label">教大站</text>
-  <text x="485" y="215" text-anchor="middle" class="small">교대역</text>
-  <text x="485" y="247" text-anchor="middle" class="small">跟著 동해선 指標</text>
-  <text x="485" y="278" text-anchor="middle" class="small">走站內連通道轉東海線</text>
+  <rect x="40" y="165" width="195" height="170" rx="18" class="box"/>
+  <circle cx="78" cy="207" r="14" fill="#f97316"/>
+  <text x="145" y="214" text-anchor="middle" class="label">釜山站</text>
+  <text x="137" y="250" text-anchor="middle" class="small">부산역</text>
+  <text x="137" y="285" text-anchor="middle" class="small">Line 1 往 노포</text>
+  <text x="137" y="313" text-anchor="middle" class="small">搭到 교대역</text>
 
-  <path d="M610 218 H735" class="arrow"/>
-  <text x="672" y="180" text-anchor="middle" class="small">東海線往 태화강／일광</text>
-  <text x="672" y="204" text-anchor="middle" class="small">確認列車停靠 오시리아</text>
+  <path d="M235 250 H300" class="arrow"/>
 
-  <rect x="740" y="145" width="230" height="145" fill="#eff6ff" stroke="#60a5fa" stroke-width="2" rx="18"/>
-  <circle cx="780" cy="185" r="14" fill="#2563eb"/>
-  <text x="865" y="192" text-anchor="middle" class="label">奧西利亞站</text>
-  <text x="855" y="228" text-anchor="middle" class="small">오시리아역</text>
-  <text x="855" y="260" text-anchor="middle" class="small">1 號出口找 Taxi</text>
+  <rect x="305" y="145" width="220" height="210" rx="18" class="box"/>
+  <circle cx="345" cy="190" r="14" fill="#f97316"/>
+  <text x="425" y="197" text-anchor="middle" class="label">教大站</text>
+  <text x="415" y="233" text-anchor="middle" class="small">교대역</text>
+  <text x="415" y="268" text-anchor="middle" class="small">依 동해선 指標轉乘</text>
+  <text x="415" y="300" text-anchor="middle" class="small">站內通道步行</text>
+  <text x="415" y="329" text-anchor="middle" class="small">東海線往 태화강／일광</text>
 
-  <path d="M970 218 H1075" class="arrow"/>
-  <text x="1022" y="188" text-anchor="middle" class="small">Taxi 5–10 分鐘</text>
+  <path d="M525 250 H590" class="arrow"/>
 
-  <rect x="1080" y="130" width="270" height="175" fill="#ecfdf5" stroke="#4ade80" stroke-width="2" rx="18"/>
-  <text x="1215" y="180" text-anchor="middle" class="label">Skyline Luge</text>
-  <text x="1215" y="218" text-anchor="middle" class="small">스카이라인 루지 부산</text>
-  <text x="1215" y="252" text-anchor="middle" class="small">10:00～12:00</text>
-  <text x="1215" y="282" text-anchor="middle" class="small">BIG 5｜A 組</text>
+  <rect x="595" y="165" width="195" height="170" rx="18" class="box"/>
+  <circle cx="633" cy="207" r="14" fill="#2563eb"/>
+  <text x="702" y="214" text-anchor="middle" class="label">奧西利亞站</text>
+  <text x="692" y="250" text-anchor="middle" class="small">오시리아역</text>
+  <text x="692" y="285" text-anchor="middle" class="small">1 號出口</text>
+  <text x="692" y="313" text-anchor="middle" class="small">到 Taxi 乘車處</text>
 
-  <path d="M1215 305 V385" class="arrow"/>
-  <text x="1245" y="352" class="small">Taxi 約 5 分鐘</text>
+  <path d="M790 250 H855" class="arrow"/>
+  <text x="822" y="220" text-anchor="middle" class="small">Taxi 5–10 分</text>
 
-  <rect x="970" y="390" width="380" height="190" fill="#fff7ed" stroke="#fb923c" stroke-width="2" rx="18"/>
-  <text x="1160" y="435" text-anchor="middle" class="label">Maison Dongbusan／Outlet</text>
-  <text x="1160" y="470" text-anchor="middle" class="small">롯데몰 메종동부산</text>
-  <text x="1160" y="510" text-anchor="middle" class="label">Brick Campus｜13:15～14:45</text>
-  <text x="1160" y="548" text-anchor="middle" class="label">Outlet｜15:00～18:00</text>
+  <rect x="860" y="145" width="215" height="210" rx="18" fill="#ecfdf5" stroke="#4ade80" stroke-width="2"/>
+  <text x="967" y="197" text-anchor="middle" class="label">Skyline Luge</text>
+  <text x="967" y="234" text-anchor="middle" class="small">스카이라인 루지 부산</text>
+  <text x="967" y="273" text-anchor="middle" class="small">10:00～12:00</text>
+  <text x="967" y="307" text-anchor="middle" class="small">BIG 5｜A 組</text>
+  <text x="967" y="335" text-anchor="middle" class="small">結束後叫 Taxi</text>
 
-  <path d="M970 485 C780 620 410 610 235 290" class="arrow"/>
-  <text x="635" y="595" text-anchor="middle" class="label">購物後 Taxi 回 오시리아역 → 東海線到 교대역 → Line 1 回 부산역</text>
+  <path d="M1075 250 H1140" class="arrow"/>
+  <text x="1107" y="220" text-anchor="middle" class="small">Taxi 約 5 分</text>
 
-  <rect x="40" y="365" width="580" height="150" fill="#eef2ff" stroke="#818cf8" stroke-width="2" rx="16"/>
-  <text x="65" y="405" class="label">不要搭錯方向</text>
-  <text x="65" y="443" class="small">去程：부산역 Line 1 往 노포 → 교대역 → 東海線往 태화강／일광</text>
-  <text x="65" y="478" class="small">回程：오시리아역 → 교대역 → Line 1 往 다대포해수욕장 → 부산역</text>
+  <rect x="1145" y="145" width="220" height="210" rx="18" fill="#fff7ed" stroke="#fb923c" stroke-width="2"/>
+  <text x="1255" y="193" text-anchor="middle" class="label">Brick／Outlet</text>
+  <text x="1255" y="230" text-anchor="middle" class="small">롯데몰 메종동부산</text>
+  <text x="1255" y="269" text-anchor="middle" class="small">Brick 13:15～14:45</text>
+  <text x="1255" y="303" text-anchor="middle" class="small">Outlet 15:00～18:00</text>
+  <text x="1255" y="333" text-anchor="middle" class="small">購物後從這裡回程</text>
+
+  <text x="45" y="420" class="route" fill="#2563eb">回程</text>
+
+  <path d="M1255 355 V445 H1105" class="return"/>
+  <text x="1200" y="420" text-anchor="middle" class="small">Taxi 回車站</text>
+
+  <rect x="890" y="445" width="215" height="170" rx="18" fill="#eff6ff" stroke="#60a5fa" stroke-width="2"/>
+  <circle cx="930" cy="487" r="14" fill="#2563eb"/>
+  <text x="1005" y="494" text-anchor="middle" class="label">奧西利亞站</text>
+  <text x="997" y="530" text-anchor="middle" class="small">오시리아역</text>
+  <text x="997" y="565" text-anchor="middle" class="small">東海線往 부전</text>
+  <text x="997" y="593" text-anchor="middle" class="small">搭回 교대역</text>
+
+  <path d="M890 530 H745" class="return"/>
+
+  <rect x="530" y="445" width="215" height="170" rx="18" fill="#eff6ff" stroke="#60a5fa" stroke-width="2"/>
+  <circle cx="570" cy="487" r="14" fill="#f97316"/>
+  <text x="645" y="494" text-anchor="middle" class="label">教大站</text>
+  <text x="637" y="530" text-anchor="middle" class="small">교대역</text>
+  <text x="637" y="565" text-anchor="middle" class="small">轉 Line 1</text>
+  <text x="637" y="593" text-anchor="middle" class="small">往 다대포해수욕장</text>
+
+  <path d="M530 530 H385" class="return"/>
+
+  <rect x="170" y="445" width="215" height="170" rx="18" fill="#eff6ff" stroke="#60a5fa" stroke-width="2"/>
+  <circle cx="210" cy="487" r="14" fill="#f97316"/>
+  <text x="285" y="494" text-anchor="middle" class="label">釜山站</text>
+  <text x="277" y="530" text-anchor="middle" class="small">부산역</text>
+  <text x="277" y="565" text-anchor="middle" class="small">6 號出口</text>
+  <text x="277" y="593" text-anchor="middle" class="small">步行回飯店</text>
+
+  <rect x="40" y="665" width="1325" height="55" rx="14" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="702" y="700" text-anchor="middle" class="route">回程口訣：Outlet 叫 Taxi → 오시리아역 → 동해선 교대역 → Line 1 부산역</text>
 </svg>
