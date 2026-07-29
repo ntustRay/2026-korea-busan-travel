@@ -75,6 +75,12 @@ const dailyReminders: Record<string, string> = {
   "2026-08-02": "不要亂拍人，也不要用手指指人。",
   "2026-08-03": "回程前再次確認護照與行李。",
 };
+const dailyTasteTips: Record<string, string[]> = {
+  "2026-07-31": ["晚餐：豬肉湯飯"],
+  "2026-08-01": ["午餐：小麥冷麵", "順路買：韓國防曬"],
+  "2026-08-02": ["西面晚餐：辣炒章魚牛腸蝦", "點心：釜山魚板"],
+  "2026-08-03": ["BIFF：堅果黑糖餅", "超市：海苔、藥菓"],
+};
 const koreaAttentionGroups = [
   {
     title: "餐廳",
@@ -131,6 +137,47 @@ const koreaAttentionGroups = [
       "長頭髮先綁起來",
       "不舒服就離開高溫房",
       "進場先確認離場時間",
+    ],
+  },
+];
+const busanFoodGroups = [
+  {
+    title: "釜山必吃",
+    items: [
+      "豬肉湯飯 돼지국밥｜白湯、豬肉、韭菜",
+      "小麥冷麵 밀면｜夏天優先選湯冷麵",
+      "辣炒章魚牛腸蝦 낙곱새｜不吃內臟可點章魚加蝦",
+      "釜山魚板 부산어묵｜順便試水年糕 물떡",
+      "堅果黑糖餅 씨앗호떡｜BIFF 兩人分一個",
+      "韓式生魚片 회｜搭配包菜與辣醬",
+      "烤盲鰻 곰장어｜釜山港口重口味料理",
+      "東萊蔥煎餅 동래파전｜海鮮與大量青蔥",
+      "河豚湯 복국｜清爽醒胃的釜山湯品",
+      "釜山餛飩 완당｜薄皮清湯、適合輕食",
+    ],
+  },
+  {
+    title: "韓國必買",
+    items: [
+      "機張海苔／昆布｜最有釜山在地性",
+      "海苔酥 김자반｜回台灣直接拌飯",
+      "常溫或真空釜山魚板｜確認保存方式",
+      "即食小麥冷麵 밀면｜選不含肉配料",
+      "藥菓 약과｜先買小包避免太甜",
+      "韓菓／鍋巴零食｜輕巧好分送",
+      "韓國防曬｜只買自己會用的",
+      "面膜／痘痘貼｜少量補貨即可",
+      "辣椒醬／包飯醬｜選小包裝並檢查成分",
+      "釜山圖樣磁鐵／明信片｜不占行李空間",
+    ],
+  },
+  {
+    title: "不要帶回台灣",
+    items: [
+      "香腸、火腿、肉乾與其他肉製品",
+      "含肉塊、肉粉或動物油的泡麵與調理包",
+      "需要冷藏但無法維持低溫的魚板",
+      "來源或成分不清楚的食品",
     ],
   },
 ];
@@ -239,7 +286,8 @@ function MarkdownContent({ markdown }: { markdown: string }) {
 }
 
 function AttentionList() {
-  const [openGroup, setOpenGroup] = useState<string | null>(koreaAttentionGroups[0]?.title ?? null);
+  const attentionGroups = [...koreaAttentionGroups, ...busanFoodGroups];
+  const [openGroup, setOpenGroup] = useState<string | null>(attentionGroups[0]?.title ?? null);
 
   return (
     <section>
@@ -249,7 +297,7 @@ function AttentionList() {
         <p>看到就照做。</p>
       </header>
       <div className="attention-groups">
-        {koreaAttentionGroups.map((group) => {
+        {attentionGroups.map((group) => {
           const redLineCount = group.items.filter((item) => redLineItems.has(item)).length;
 
           return (
@@ -671,6 +719,11 @@ export function App({ now }: AppProps) {
                   <p><strong>{destination.koreanName}</strong><span>{destination.address}</span></p>
                 </div>
                 <p className="critical-note"><Info aria-hidden="true" /><strong>{dailyReminders[selectedDay.date]}</strong></p>
+                <aside className="daily-taste-note" aria-label="今日順路吃買">
+                  <strong>順路吃買</strong>
+                  <span>{dailyTasteTips[selectedDay.date]?.join(" · ")}</span>
+                  <button type="button" onClick={() => setTab("attention")}>10＋10</button>
+                </aside>
                 <div className="travel-actions">
                   <a className="primary-action" href={naverMapUrl(destination)}><Navigation aria-hidden="true" />NAVER Map</a>
                   <a href={uberUrl(destination)}><ExternalLink aria-hidden="true" />Uber</a>
