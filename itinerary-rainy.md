@@ -1,41 +1,29 @@
 # 釜山 4 天 3 夜｜雨備行程
 
-> 核心策略：不要每天都排一套完全不同的備案，而是把「戶外日」與「室內日」整組互換。
+> 核心策略：Day 2、Day 3 整天互換。較乾燥的一天給 Skyline Luge；雨勢較大的一天走水族館、SPA LAND 與西面。
 >
-> 最乾燥的半天優先留給 Skyline Luge；松島纜車排第二。水族館與 SPA LAND 是固定的雨天主力。
+> 不在現場等雨超過 30 分鐘，不為了 Pass 或景點清單冒險。
 
-## 最重要的調整規則
+## 最重要的切換規則
 
-### 7/30 晚上先看 8/01、8/02 的逐時天氣
+### 7/31 晚上比較 8/01、8/02 逐時天氣
 
-- **較乾燥的一天**：Skyline Luge＋東釜山 Outlet。
-- **下雨較多的一天**：SEA LIFE Busan Aquarium＋SPA LAND。
-- Day 2 與 Day 3 可以整天互換，不拆開混搭。
+- **較乾燥的一天**：Skyline Luge → Brick Campus → Outlet。
+- **下雨較多的一天**：SEA LIFE → SPA LAND → 西面。
+- 可以整天互換，不拆成複雜的半日組合。
 
-### 8/03 回程日
-
-- 松島纜車只有在官網顯示正常營運、天氣穩定時才前往。
-- 大雨、雷雨或強風直接取消，不跨城補景點。
-- 15:15 前必須從 Hound Hotel Busan Station 出發前往機場。
-
----
-
-## 雨勢判斷
+### 天氣判斷
 
 | 狀況 | Skyline Luge | 松島纜車 | 行程處理 |
 |---|---|---|---|
-| 無雨／短暫陣雨 | 正常安排 | 正常安排 | 走正常行程 |
-| 小雨 | 先看官網即時狀態；通常可能營運 | 先看官網狀態 | 可保留，但不要硬等 |
-| 持續大雨 | 不安排 | 不安排 | 改室內行程 |
-| 雷雨／強風 | 不安排 | 不安排 | 安全優先，直接取消 |
-
-Skyline Luge 官方說明：小雨通常可營運，但雷電、強風或可能影響安全的大雨會暫停。松島海上纜車也可能因惡劣天候或現場狀況更改營運時間。
+| 無雨／短暫陣雨 | 正常安排 | 正常安排 | 晴天行程 |
+| 小雨 | 先看官方即時狀態 | 先看官方即時狀態 | 可保留，不硬等 |
+| 持續大雨 | 不安排 | 不安排 | 室內行程 |
+| 雷雨／強風 | 不安排 | 不安排 | 直接取消 |
 
 ---
 
-## Day 1｜7/31（五）抵達日雨備
-
-### 行程
+## Day 1｜7/31（五）抵達日
 
 ```text
 金海機場
@@ -53,205 +41,183 @@ Skyline Luge 官方說明：小雨通常可營運，但雷電、強風或可能�
 | 19:15～20:30 | 軌道交通前往飯店 |
 | 20:30 | Check-in |
 | 21:00 | 飯店附近室內餐廳或外送 |
-| 22:00 後 | 飯店休息、Rooftop Pool 視開放狀態使用 |
+| 22:00 後 | 飯店休息 |
 
-### 雨備原則
-
-- 抵達日不受景點停駛影響。
-- 雨太大且行李多，可從機場改搭 Taxi 到飯店。
-- 不臨時新增夜景、夜市或商圈。
+雨太大且行李多時直接搭 Taxi。抵達日不增加夜景或商圈。
 
 ---
 
-# 情境 A｜8/01 下雨、8/02 天氣較好
+## 雨天室內套裝｜SEA LIFE＋SPA LAND＋西面
 
-## Day 2｜8/01（六）水族館＋SPA LAND
-
-### 路線
+這套行程放在 8/01、8/02 中雨勢較大的一天。
 
 ```text
 Busan Station Line 1
 → Seomyeon 轉 Line 2
 → Haeundae Station
 → SEA LIFE Busan Aquarium
-→ Line 2 到 Centum City
+→ Haeundae Station Line 2 到 Centum City
 → SPA LAND
-→ 原路回 Busan Station
+→ Line 2 到 Seomyeon
+→ 西面晚餐與商圈
+→ Line 1 回 Busan Station
 ```
+
+![雨天海雲台到水族館](./images/transport/04-haeundae-aquarium.svg)
+
+![Centum City、SPA LAND 與西面路線](./images/transport/05-centum-spaland.svg)
 
 | 時間 | 安排 |
 |---|---|
 | 09:30 | 飯店出發 |
 | 10:30～12:30 | SEA LIFE Busan Aquarium |
-| 12:30～14:00 | 海雲台室內餐廳午餐 |
-| 14:00～14:30 | 咖啡／休息，不去海灘 |
-| 14:30～15:00 | Line 2 前往 Centum City |
-| 15:15～19:00 | SPA LAND |
-| 19:00～20:00 | Shinsegae Centum City 晚餐 |
-| 20:00 後 | 回飯店 |
+| 12:30～14:00 | 海雲台室內午餐 |
+| 14:00～14:30 | 前往 Centum City |
+| 14:30～18:15 | SPA LAND |
+| 18:15～18:45 | Line 2 前往西面 |
+| 18:45～21:00 | 西面晚餐、地下街與商圈 |
+| 21:00 後 | Line 1 回飯店 |
 
-### 注意
+### 雨天原則
 
-- 水族館與 SPA 是兩個主要景點，當天不加其他博物館。
-- 雨勢若變小，只在海雲台海灘入口短暫看海，不沿海岸移動。
-
-## Day 3｜8/02（日）Skyline Luge＋Outlet
-
-直接使用 [正常行程 Day 2](./itinerary-normal.md#day-281六skyline-luge東釜山-outlet)。
-
-### 執行條件
-
-- 早上出門前確認 Skyline Luge 官網顯示營運中。
-- 交通固定使用 **Busan Station → Gyodae 教大站 → Donghae Line → Osiria**，不要改走釜田站。
-- 先玩 Luge，再逛 Outlet。
-- 如果到 Osiria 後突然雷雨或停駛，不在現場等待超過 30 分鐘，直接前往 Outlet。
-- 當天 Luge 未玩到時，不再補 Lotte World；保留體力與購物時間。
+- 晴天才去 X the SKY；雨天改 SEA LIFE。
+- 不安排長時間咖啡廳。
+- 雨變小時只在海雲台海灘入口短暫看海，不延伸散步。
+- SEA LIFE 不是 BIG 5 免費景點，購票前比較官網預售價與 Pass 折扣。
 
 ---
 
-# 情境 B｜8/01 天氣較好、8/02 下雨
+## 較乾燥日套裝｜Luge＋Brick Campus＋Outlet
 
-## Day 2｜8/01（六）Skyline Luge＋Outlet
-
-直接使用 [正常行程 Day 2](./itinerary-normal.md#day-281六skyline-luge東釜山-outlet)。
-
-## Day 3｜8/02（日）水族館＋SPA LAND
-
-直接使用本檔案「情境 A Day 2」的室內版本。
-
----
-
-# 情境 C｜8/01、8/02 都下雨
-
-## 優先判斷
-
-1. 尋找任一天 **至少 3～4 小時無雷雨、無強風的時段**。
-2. 這個時段優先給 Skyline Luge。
-3. Outlet 可接在 Luge 後面；即使下雨仍能購物，但戶外走動體驗會較差。
-4. 如果完全沒有安全時段，接受 Luge 取消，不為了完成清單冒險。
-
-## Day 2｜室內主行程
-
-```text
-SEA LIFE Busan Aquarium
-→ 午餐
-→ SPA LAND Centum City
-→ Shinsegae 百貨晚餐
-```
-
-這天維持兩個主要景點，不加其他行程。
-
-## Day 3｜購物＋飯店放鬆
-
-### 方案 C1：雨勢較小、Skyline Luge 有營運
-
-```text
-Busan Station 搭 Line 1
-→ Gyodae Station 教大站（교대역）
-→ 跟著 동해선 / Donghae Line 指標走站內連通道
-→ Donghae Line 到 Osiria
-→ Skyline Luge
-→ Lotte Premium Outlets Dongbusan
-→ Osiria → Gyodae → Busan Station 回飯店
-```
-
-Luge 的所有版本都統一在 **教大站轉東海線**，避免同一趟旅程出現兩套不同走法。
-
-### 方案 C2：大雨／雷雨／強風，Luge 停駛
+這套行程放在 8/01、8/02 中較乾燥的一天。
 
 ```text
 Busan Station Line 1
-→ Nampo Station
-→ Lotte Department Store Gwangbok 室內購物、午餐
-→ 回釜山站／草梁站
-→ 飯店 Rooftop Pool、咖啡或休息
+→ Gyodae 轉 Donghae Line
+→ Osiria Station
+→ Taxi 到 Skyline Luge
+→ Taxi 到 Maison Dongbusan
+→ Brick Campus
+→ Outlet
+→ Taxi 回 Osiria
+→ Gyodae 轉 Line 1 回飯店
 ```
 
-### 為什麼不改排 Lotte World Adventure Busan
+![Osiria 雨天與晴天共用路線](./images/transport/03-osiria-area.svg)
 
-- 多數主要設施仍會受雨勢與風勢影響。
-- 它位於 Osiria，從釜山站往返距離長。
-- 在已經無法玩 Luge 的天候下，再去戶外樂園不符合放鬆與風險控制。
+| 時間 | 安排 |
+|---|---|
+| 08:20 | 飯店出發 |
+| 10:00～12:00 | Skyline Luge；以官方顯示營運中為前提 |
+| 12:15～13:15 | 午餐 |
+| 13:15～14:45 | Brick Campus |
+| 15:00～18:00 | Outlet |
+| 18:00 後 | 回飯店 |
+
+### 現場突然停駛
+
+- 不等待超過 30 分鐘。
+- 直接改成 Brick Campus → 午餐 → Outlet。
+- 不補 Lotte World，不跨區追其他戶外景點。
+
+---
+
+## 情境表
+
+### 情境 A｜8/01 晴、8/02 雨
+
+- Day 2：Luge → Brick Campus → Outlet → 北港選配
+- Day 3：SEA LIFE → SPA LAND → 西面
+
+### 情境 B｜8/01 雨、8/02 晴
+
+- Day 2：SEA LIFE → SPA LAND → 西面
+- Day 3：Luge → Brick Campus → Outlet
+
+Day 3 Outlet 結束後直接回飯店，不再去西面。
+
+### 情境 C｜兩天都下雨
+
+1. 找出至少 3～4 小時無雷雨、無強風的時段，優先給 Luge。
+2. 完全沒有安全時段就取消 Luge。
+3. 一天走 SEA LIFE → SPA LAND → 西面。
+4. 另一天走 Brick Campus → Outlet；Luge 只在官方確認營運時加入。
 
 ---
 
 ## Day 4｜8/03（一）松島纜車雨備
 
-### 方案 1：小雨，纜車正常營運
+### 小雨但纜車正常
+
+照晴天行程：
 
 ```text
-09:00 退房寄行李
-→ Line 1 到 Jagalchi
-→ 短程 Taxi 到 Songdo Bay Station
-→ 松島海上纜車來回
-→ 南浦／札嘎其午餐
+退房寄行李
+→ Taxi 到松島纜車
+→ 纜車來回
+→ Taxi 到 BIFF 午餐
+→ Lotte Mart Gwangbok
+→ 14:20 離開
 → 回飯店取行李
 → 15:15 前出發去機場
 ```
 
-- 小雨可以搭，但海景可能被雲霧遮住。
-- 只搭纜車與短暫看海，不走對岸長程步道。
-- 12:00 前開始回南浦方向。
+- 不走對岸長程步道。
+- 海景不佳也不延長停留等待放晴。
 
-### 方案 2：大雨、雷雨、強風或纜車停駛
+### 大雨、雷雨、強風或纜車停駛
 
 ```text
-09:00 退房寄行李
+09:15 退房寄行李
 → Line 1 到 Nampo
-→ Lotte Department Store Gwangbok 室內購物
-→ 午餐
-→ 13:30～14:00 回飯店取行李
+→ Lotte Department Store Gwangbok
+→ 室內午餐
+→ Lotte Mart 採買
+→ 14:20 離開
+→ 回飯店取行李
 → 15:15 前出發去機場
 ```
 
+BIFF 為戶外區域，大雨時可直接取消。
+
 ### 回程硬規則
 
-- 不因纜車排隊、停駛或等雨停而延後離開。
-- 14:15 前回到飯店附近。
+- 不因停駛或等雨延後。
+- 14:20 必須離開南浦／樂天。
 - 15:15 前從飯店出發。
-- 目標 16:30～17:00 抵達 PUS，搭乘 19:10 的 BR163。
+- 目標 16:30 左右抵達 PUS，搭乘 19:10 的 BR163。
 
 ---
 
-## 哪些行程可以取消
+## Visit Busan Pass 雨天決策
 
-依取消優先順序：
+### 仍可買 BIG 5
 
-1. 額外咖啡廳與商圈閒逛
-2. 海雲台海灘散步
-3. Lotte World Adventure Busan
-4. 松島對岸長程步道
-5. 松島纜車（若天候不安全）
-6. Skyline Luge（若官方停駛或沒有安全時段）
+以下四項有合理機會使用時，BIG 5 仍有價值：
 
-水族館、SPA LAND 與購物是雨天最穩定的核心。
+- A 組：Skyline Luge、SPA LAND
+- B 組：Brick Campus、松島海上纜車
 
----
+即使第三個 B 組未使用，也不為回本硬塞景點。
 
-## 出發前檢查清單
+### 改成單買
 
-### 7/30 晚上
+若 Skyline Luge 與松島纜車都很可能停駛，先不要買 BIG 5。SEA LIFE 只有折扣，不是免費入場。
 
-- [ ] 比較 8/01、8/02 的逐時降雨、雷雨與風速。
-- [ ] 將較好的那一天指定為 Luge＋Outlet。
-- [ ] 確認 Luge 票券是否可改期或退款。
-- [ ] 水族館電子票存入手機。
+完整計算請看 [Visit Busan Pass 筆記](./visit-busan-pass.md)。
 
-### 每天早上
+## 每天早上檢查
 
-- [ ] Skyline Luge 官網即時營運狀態。
-- [ ] 松島纜車官網即時營運狀態。
-- [ ] NAVER Map 的東海線即時班次與轉乘資訊。
-- [ ] 韓國氣象廳警報是否有豪雨、雷雨或強風特報。
-- [ ] 雨具使用輕便雨衣，不帶大型雨傘玩設施。
+- [ ] Skyline Luge 官方即時營運狀態
+- [ ] 松島纜車官方即時營運狀態
+- [ ] NAVER Map 東海線、地鐵與輕軌班次
+- [ ] 韓國氣象廳豪雨、雷雨與強風警報
+- [ ] 兩支手機都有雨備路線與票券截圖
 
 ## 官方資訊
 
-- [Skyline Luge Busan－FAQ／天候規則](https://busan.skylineluge.kr/en/visiting-us/faqs/)
-- [Skyline Luge Busan－即時營業時間](https://busan.skylineluge.kr/en/visiting-us/open-hours/)
-- [SEA LIFE Busan Aquarium－營業時間](https://www.visitsealife.com/busan/en/plan-your-visit/before-you-visit/opening-hours/)
+- [Skyline Luge 天候規則](https://busan.skylineluge.kr/en/visiting-us/faqs/)
+- [Skyline Luge 即時營業時間](https://busan.skylineluge.kr/en/visiting-us/open-hours/)
+- [SEA LIFE Busan Aquarium](https://www.visitsealife.com/busan/en/plan-your-visit/before-you-visit/opening-hours/)
 - [SPA LAND Centum City](https://deptmapp.shinsegae.com/store/entertainment/centum-spaland.do?storeCd=SC00008)
-- [松島海上纜車－營業時間與營運狀態](https://www.busanaircruise.co.kr/info/time)
-- [Lotte Premium Outlets Dongbusan－Visit Busan](https://www.visitbusan.net/en/index.do?lang_cd=en&menuCd=DOM_000000301003001000&uc_seq=506)
-
-> 雨備的目標不是把所有清單硬完成，而是確保每一天都好移動、能休息，並把安全與回程航班放在景點之前。
+- [松島海上纜車營業狀態](https://en.busanaircruise.co.kr/info/time?rank=2)
