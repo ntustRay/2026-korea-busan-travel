@@ -69,7 +69,7 @@ Busan Station 釜山站搭 Metro Line 1
 
 **統一在教大站轉東海線。** Osiria Station、Luge 與 Outlet 之間優先搭短程 Taxi，不在 8 月高溫下硬走。
 
-![Osiria、Luge、Brick Campus 與 Outlet 交通圖](./images/transport/03-osiria-area.svg)
+![Osiria、Luge、Brick Campus 與 Outlet 交通圖](../../images/transport/03-osiria-area.svg)
 
 ### 時間安排
 
@@ -114,9 +114,9 @@ Busan Station Line 1
 → Line 1 回 Busan Station
 ```
 
-![海雲台晴天路線](./images/transport/04-haeundae-aquarium.svg)
+![海雲台晴天路線](../../images/transport/04-haeundae-aquarium.svg)
 
-![Centum City、SPA LAND 與西面路線](./images/transport/05-centum-spaland.svg)
+![Centum City、SPA LAND 與西面路線](../../images/transport/05-centum-spaland.svg)
 
 ### 時間安排
 
@@ -158,7 +158,7 @@ Busan Station Line 1
 → Busan-Gimhae Light Rail 到 Airport Station
 ```
 
-![松島、BIFF、Lotte Mart 與機場路線](./images/transport/06-songdo-route.svg)
+![松島、BIFF、Lotte Mart 與機場路線](../../images/transport/06-songdo-route.svg)
 
 ### 時間安排
 
@@ -195,7 +195,7 @@ Busan Station Line 1
 - SPA LAND：另外購票
 - 第三個 B 組名額不為了回本硬塞景點
 
-完整計算與雨天購買門檻請看 [Visit Busan Pass 筆記](./visit-busan-pass.md)。
+完整計算與雨天購買門檻請看 [Visit Busan Pass 筆記](../guides/visit-busan-pass.md)。
 
 ## 出發前確認
 

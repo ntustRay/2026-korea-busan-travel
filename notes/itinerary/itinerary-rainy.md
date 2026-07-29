@@ -63,9 +63,9 @@ Busan Station Line 1
 → Line 1 回 Busan Station
 ```
 
-![雨天海雲台到水族館](./images/transport/04-haeundae-aquarium.svg)
+![雨天海雲台到水族館](../../images/transport/04-haeundae-aquarium.svg)
 
-![Centum City、SPA LAND 與西面路線](./images/transport/05-centum-spaland.svg)
+![Centum City、SPA LAND 與西面路線](../../images/transport/05-centum-spaland.svg)
 
 | 時間 | 安排 |
 |---|---|
@@ -103,7 +103,7 @@ Busan Station Line 1
 → Gyodae 轉 Line 1 回飯店
 ```
 
-![Osiria 雨天與晴天共用路線](./images/transport/03-osiria-area.svg)
+![Osiria 雨天與晴天共用路線](../../images/transport/03-osiria-area.svg)
 
 | 時間 | 安排 |
 |---|---|
@@ -204,7 +204,7 @@ BIFF 為戶外區域，大雨時可直接取消。
 
 若 Skyline Luge 與松島纜車都很可能停駛，先不要買 BIG 5。SEA LIFE 只有折扣，不是免費入場。
 
-完整計算請看 [Visit Busan Pass 筆記](./visit-busan-pass.md)。
+完整計算請看 [Visit Busan Pass 筆記](../guides/visit-busan-pass.md)。
 
 ## 每天早上檢查
 

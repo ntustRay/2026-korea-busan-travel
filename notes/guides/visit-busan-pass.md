@@ -1,5 +1,7 @@
 # Visit Busan Pass 購買與使用筆記
 
+> 分類：票券與預算
+
 ## 結論
 
 本次晴天行程建議購買 **VISIT BUSAN PASS BIG 5（Mobile）**：

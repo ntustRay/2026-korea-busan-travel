@@ -23,8 +23,8 @@ import {
 } from "lucide-react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import normalMarkdown from "../itinerary-normal.md?raw";
-import rainyMarkdown from "../itinerary-rainy.md?raw";
+import normalMarkdown from "../notes/itinerary/itinerary-normal.md?raw";
+import rainyMarkdown from "../notes/itinerary/itinerary-rainy.md?raw";
 import { parseNormalItinerary, parseRainyItinerary } from "./content/itinerary";
 import { destinationFor, hotel, naverMapUrl, uberUrl } from "./content/places";
 
@@ -215,7 +215,13 @@ function MarkdownContent({ markdown }: { markdown: string }) {
         remarkPlugins={[remarkGfm]}
         components={{
           img({ src, alt }) {
-            return <img src={src?.replace("./images/", "./")} alt={alt ?? ""} loading="lazy" />;
+            return (
+              <img
+                src={src?.replace(/^(?:\.\/|\.\.\/)+images\//, "./")}
+                alt={alt ?? ""}
+                loading="lazy"
+              />
+            );
           },
         }}
       >

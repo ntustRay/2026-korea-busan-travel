@@ -37,14 +37,15 @@ npm run test:e2e
 ## 行程文件
 
 - [旅行規劃詞彙](./CONTEXT.md)：無腦放鬆、戶外日、室內日、現場用餐與回程硬規則
-- [正常行程](./itinerary-normal.md)：Luge＋Brick Campus＋Outlet、X the SKY＋SPA＋西面、松島＋南浦
-- [雨備行程](./itinerary-rainy.md)：依逐時天氣互換戶外日與室內日
-- [詳細交通筆記](./交通.md)：機場、飯店與各景點的逐段路線、轉乘方向、韓文站名與 Taxi 用語
-- [Visit Busan Pass 購買與使用](./visit-busan-pass.md)：BIG 5 購買門檻、A／B 組用法與省錢估算
-- [出發前注意事項](./出發前注意事項.md)：入境文件、eSIM、轉接頭、行動電源、禁帶物品、常備藥品與打包清單
-- [韓國與釜山文化注意事項](./韓國與釜山文化注意事項.md)：餐廳、交通、傳統市場、SPA、拍照禮貌與實用韓文
-- [Android 韓國必裝 App](./必裝%20Korean%20APP.md)：NAVER Map、Papago、k.ride、Visit Busan Pass、長榮與手機設定
-- [韓國旅行影片重點](./韓國旅行影片重點.md)：機場交通、餐廳與廁所、Taxi 防坑、行動電源與旅遊禮儀
+- [筆記總覽](./notes/README.md)：依行程、實用指南與網站規劃分類
+- [正常行程](./notes/itinerary/itinerary-normal.md)：Luge＋Brick Campus＋Outlet、X the SKY＋SPA＋西面、松島＋南浦
+- [雨備行程](./notes/itinerary/itinerary-rainy.md)：依逐時天氣互換戶外日與室內日
+- [詳細交通筆記](./notes/guides/交通.md)：機場、飯店與各景點的逐段路線、轉乘方向、韓文站名與 Taxi 用語
+- [Visit Busan Pass 購買與使用](./notes/guides/visit-busan-pass.md)：BIG 5 購買門檻、A／B 組用法與省錢估算
+- [出發前注意事項](./notes/guides/出發前注意事項.md)：入境文件、eSIM、轉接頭、行動電源、禁帶物品、常備藥品與打包清單
+- [韓國與釜山文化注意事項](./notes/guides/韓國與釜山文化注意事項.md)：餐廳、交通、傳統市場、SPA、拍照禮貌與實用韓文
+- [Android 韓國必裝 App](./notes/guides/必裝%20Korean%20APP.md)：NAVER Map、Papago、k.ride、Visit Busan Pass、長榮與手機設定
+- [韓國旅行影片重點](./notes/guides/韓國旅行影片重點.md)：機場交通、餐廳與廁所、Taxi 防坑、行動電源與旅遊禮儀
 
 ### 景點優先順序
 

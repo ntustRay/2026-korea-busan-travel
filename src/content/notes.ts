@@ -1,11 +1,11 @@
-import normalItinerary from "../../itinerary-normal.md?raw";
-import rainyItinerary from "../../itinerary-rainy.md?raw";
-import busanPass from "../../visit-busan-pass.md?raw";
-import transport from "../../交通.md?raw";
-import preparation from "../../出發前注意事項.md?raw";
-import apps from "../../必裝 Korean APP.md?raw";
-import videoNotes from "../../韓國旅行影片重點.md?raw";
-import culture from "../../韓國與釜山文化注意事項.md?raw";
+import normalItinerary from "../../notes/itinerary/itinerary-normal.md?raw";
+import rainyItinerary from "../../notes/itinerary/itinerary-rainy.md?raw";
+import busanPass from "../../notes/guides/visit-busan-pass.md?raw";
+import transport from "../../notes/guides/交通.md?raw";
+import preparation from "../../notes/guides/出發前注意事項.md?raw";
+import apps from "../../notes/guides/必裝 Korean APP.md?raw";
+import videoNotes from "../../notes/guides/韓國旅行影片重點.md?raw";
+import culture from "../../notes/guides/韓國與釜山文化注意事項.md?raw";
 
 export type NoteCategory = "itinerary" | "attention" | "more";
 

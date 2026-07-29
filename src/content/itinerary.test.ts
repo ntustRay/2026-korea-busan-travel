@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import normalMarkdown from "../../itinerary-normal.md?raw";
-import rainyMarkdown from "../../itinerary-rainy.md?raw";
+import normalMarkdown from "../../notes/itinerary/itinerary-normal.md?raw";
+import rainyMarkdown from "../../notes/itinerary/itinerary-rainy.md?raw";
 import { parseNormalItinerary, parseRainyItinerary } from "./itinerary";
 
 describe("normal itinerary content", () => {
