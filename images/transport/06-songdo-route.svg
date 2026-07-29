@@ -10,8 +10,8 @@
   <text x="60" y="92" class="sub">14:20 離開樂天｜15:15 前離開飯店｜16:30 左右抵達 PUS</text>
 
   <rect x="35" y="155" width="190" height="145" class="box"/>
-  <text x="130" y="200" text-anchor="middle" class="label">飯店</text>
-  <text x="130" y="237" text-anchor="middle" class="small">09:15 退房寄行李</text>
+  <text x="130" y="200" text-anchor="middle" class="label">飯店／釜山站旁</text>
+  <text x="130" y="237" text-anchor="middle" class="small">Hound Hotel｜09:15 退房寄行李</text>
   <text x="130" y="270" text-anchor="middle" class="small">09:30 Taxi 出發</text>
 
   <path d="M225 228 H310" class="arrow"/>
