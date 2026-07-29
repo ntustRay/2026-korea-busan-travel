@@ -181,6 +181,7 @@ const busanFoodGroups = [
     ],
   },
 ];
+const foodChecklistTitles = new Set(["釜山必吃", "韓國必買"]);
 const redLineItems = new Set([
   "孕婦座位保持空位",
   "行李不要擋門或走道",
@@ -285,9 +286,31 @@ function MarkdownContent({ markdown }: { markdown: string }) {
   );
 }
 
+function readFoodChecklistProgress(): string[] {
+  const stored = window.localStorage.getItem("busan-food-checklist-progress");
+  if (!stored) return [];
+  try {
+    const value: unknown = JSON.parse(stored);
+    return Array.isArray(value) ? value.filter((item) => typeof item === "string") : [];
+  } catch {
+    return [];
+  }
+}
+
 function AttentionList() {
   const attentionGroups = [...koreaAttentionGroups, ...busanFoodGroups];
   const [openGroup, setOpenGroup] = useState<string | null>(attentionGroups[0]?.title ?? null);
+  const [foodProgress, setFoodProgress] = useState<string[]>(readFoodChecklistProgress);
+
+  function toggleFoodItem(id: string) {
+    setFoodProgress((current) => {
+      const next = current.includes(id)
+        ? current.filter((item) => item !== id)
+        : [...current, id];
+      window.localStorage.setItem("busan-food-checklist-progress", JSON.stringify(next));
+      return next;
+    });
+  }
 
   return (
     <section>
@@ -299,12 +322,29 @@ function AttentionList() {
       <div className="attention-groups">
         {attentionGroups.map((group) => {
           const redLineCount = group.items.filter((item) => redLineItems.has(item)).length;
+          const isFoodChecklist = foodChecklistTitles.has(group.title);
+          const completedCount = isFoodChecklist
+            ? group.items.filter((_, index) => foodProgress.includes(`${group.title}-${index}`)).length
+            : 0;
 
           return (
             <details className="attention-group" id={`attention-${group.title}`} key={group.title} open={openGroup === group.title}>
-              <summary onClick={(event) => { event.preventDefault(); setOpenGroup((current) => current === group.title ? null : group.title); }}><span><strong>{group.title}</strong><small>{group.items.length} 項提醒{redLineCount > 0 ? ` · ${redLineCount} 項紅線` : ""}</small></span><ChevronDown aria-hidden="true" /></summary>
+              <summary onClick={(event) => { event.preventDefault(); setOpenGroup((current) => current === group.title ? null : group.title); }}><span><strong>{group.title}</strong><small>{isFoodChecklist ? `${completedCount}／${group.items.length} 已完成` : `${group.items.length} 項提醒${redLineCount > 0 ? ` · ${redLineCount} 項紅線` : ""}`}</small></span><ChevronDown aria-hidden="true" /></summary>
               <ol className="attention-list">
-                {group.items.map((item) => <li className={redLineItems.has(item) ? "red-line" : undefined} key={item}><strong>{item}</strong></li>)}
+                {group.items.map((item, index) => {
+                  const id = `${group.title}-${index}`;
+                  const isCompleted = foodProgress.includes(id);
+                  return (
+                    <li className={`${redLineItems.has(item) ? "red-line" : ""}${isFoodChecklist ? " checklist-item" : ""}`} key={item}>
+                      {isFoodChecklist ? (
+                        <button type="button" aria-pressed={isCompleted} onClick={() => toggleFoodItem(id)}>
+                          <span className="check-box">{isCompleted ? <Check aria-hidden="true" /> : null}</span>
+                          <strong>{item}</strong>
+                        </button>
+                      ) : <strong>{item}</strong>}
+                    </li>
+                  );
+                })}
               </ol>
             </details>
           );
