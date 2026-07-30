@@ -29,7 +29,7 @@ test("keeps mobile text readable, content centered, and raw notes hidden", async
 
   await page.getByRole("button", { name: "注意" }).click();
   await expect(page.getByRole("heading", { name: "韓國注意事項" })).toBeVisible();
-  await expect(page.locator(".attention-list li")).toHaveCount(37);
+  await expect(page.locator(".attention-list li")).toHaveCount(61);
   await expect(page.getByText("吃完飯請立即移動！")).toBeVisible();
   await page.getByText("互動與拍照", { exact: true }).click();
   await expect(page.getByText("不要「嗯嗯」，要說「內內」！")).toBeVisible();
@@ -49,7 +49,7 @@ test("checks and persists preparation progress", async ({ page }) => {
   await page.getByRole("button", { name: "行前" }).click();
   await page.getByRole("button", { name: "確認兩本護照效期與機票英文姓名" }).click();
   await page.getByRole("button", { name: "標示已安裝：NAVER Map" }).click();
-  await expect(page.getByText("1／14 項完成")).toBeVisible();
+  await expect(page.getByText("1／21 項完成")).toBeVisible();
   await expect(page.getByText("1／7")).toBeVisible();
   await expect(page.getByText("地鐵、公車與步行導航")).toBeVisible();
   await page.reload();

@@ -27,7 +27,7 @@ test("captures every expanded attention group for UI review", async ({ page }) =
   await page.getByRole("button", { name: "注意", exact: true }).click();
 
   const groups = page.locator(".attention-group");
-  await expect(groups).toHaveCount(4);
+  await expect(groups).toHaveCount(7);
 
   for (let index = 0; index < await groups.count(); index += 1) {
     const group = groups.nth(index);
